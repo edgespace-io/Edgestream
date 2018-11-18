@@ -2,7 +2,15 @@
 
 ![Current State: Preview Release](https://img.shields.io/badge/Current_State-Preview_Release-brightgreen.svg) 
 
-# Configure
+# EdgestreamSDK-Release
+
+This is the binary release of the Edgestream SDK library as an aar package that can be added to your own application. refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
+
+# Samples
+
+The Samples directory contains a minimal Android client application to test the SDK and provide an example of how to use the SDK. The Application can be opened from Android Studio.  Tested with Android Studio 3.2.1.
+
+# Configure SDK
 
 Before making calls to SendData, you'll need to configure the Android client with the Edgestream platform by registering your device and providing the returned token to the SDK where it is stored for future use
 
