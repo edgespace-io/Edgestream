@@ -1,41 +1,44 @@
-# Extended Kalman Filter Project Starter Code
-Self-Driving Car Engineer Nanodegree Program
+# EdgestreamSDK Binary Release
 
-In this project you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower than the tolerance outlined in the project rubric. 
-
-This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
-
-This repository includes two files that can be used to set up and install [uWebSocketIO](https://github.com/uWebSockets/uWebSockets) for either Linux or Mac systems. For windows you can use either Docker, VMware, or even [Windows 10 Bash on Ubuntu](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) to install uWebSocketIO. Please see [this concept in the classroom](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/16cf4a78-4fc7-49e1-8621-3450ca938b77) for the required version and installation scripts.
-
-Once the install for uWebSocketIO is complete, the main program can be built and run by doing the following from the project top directory.
-
-1. mkdir build
-2. cd build
-3. cmake ..
-4. make
-5. ./ExtendedKF
-
-Tips for setting up your environment can be found [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
-
-Note that the programs that need to be written to accomplish the project are src/FusionEKF.cpp, src/FusionEKF.h, kalman_filter.cpp, kalman_filter.h, tools.cpp, and tools.h
-
-The program main.cpp has already been filled out, but feel free to modify it.
-
-Here is the main protcol that main.cpp uses for uWebSocketIO in communicating with the simulator.
-
-
-INPUT: values provided by the simulator to the c++ program
-
-["sensor_measurement"] => the measurement that the simulator observed (either lidar or radar)
-
-
-OUTPUT: values provided by the c++ program to the simulator
-
-["estimate_x"] <= kalman filter estimated position x
-["estimate_y"] <= kalman filter estimated position y
-["rmse_x"]
-["rmse_y"]
-["rmse_vx"]
-["rmse_vy"]
+![Current State: Preview Release](https://img.shields.io/badge/Current_State-Preview_Release-brightgreen.svg) 
 
 ---
+
+
+[//]: # (Image References)
+
+[image1]: ./docs/module_settings.png "Module Settings"
+[image2]: ./docs/new_module.png "New Module"
+[image3]: ./docs/select_module_type.png "Select Module Type"
+[image4]: ./docs/select_binary.png "Select SDK Binary"
+[image5]: ./docs/finish_import.png "Finish Import"
+[image6]: ./docs/add_module.png "Add Module"
+[image7]: ./docs/import_namespace.png "Import Namespace"
+
+This is currently the preview release for the EdgestreamSDK Binary Release. 
+
+## Getting Started Guide
+Prior to starting development using the Edgestream SDK please ensure that you have the Android Studio IDE installed on your local development workstation.  The Latest Android Studio release can be found [here](https://developer.android.com/studio/).
+
+### Add SDK to a newly created project or existing project in Android Studio
+1. [Open](https://developer.android.com/studio/intro/migrate) or [Create](https://developer.android.com/studio/projects/create-project) a new project in Android Studio
+2. Once in Android Studio Open Module Settings by right-clicking on project to expose the context menu with Open Module Settings option on it.
+![alt text][image1]
+
+3. Select New Module from the Dialog
+![alt text][image2]
+
+4. Select Import .jar/.aar package followed by next
+![alt text][image3]
+
+5. browse to the EdgestreamSDK-release.aar binary and select it
+![alt text][image4]
+
+6. Click finish to import the SDK
+![alt text][image5]
+
+7. Select the Dependencies tab and click the plus sign to add the module to your project
+![alt text][image6]
+
+8. Once added the option to import EdgestreamClient will exist
+![alt text][image7]
