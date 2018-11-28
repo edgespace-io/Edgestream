@@ -23,7 +23,6 @@ Before making calls to SendData, you'll need to configure the Android client wit
 | **[Connection](#connection)**                         | [Connect](#connect)                                   |
 | **[Connection](#connection)**                         | [Disconnect](#disconnect)                             |
 | **[Data](#data)**                                     | [Send Data](#send)                                    |
-| **[Data](#data,#location)**                           | [Send Data](#send,#location)                          |
 
 
 
@@ -91,7 +90,6 @@ Send telemetry data from device to Edgestream platform.
 _client.sendData(json);
 
 ```
-
 
 Send telemetry data tagged with location data from the device to the Edgestream platform.
 
