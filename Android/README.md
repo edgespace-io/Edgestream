@@ -19,10 +19,10 @@ Before making calls to SendData, you'll need to configure the Android client wit
 | Resource                                              | Action                                                |
 | ----------------------------------------------------- | ----------------------------------------------------- |
 | **[Edgestream Client](#edgestream-client)**           | [Create](#create)                                     |
-| **[Configuration](#configuration)**                   | [Set Token](#set-token)                               |
+| **[Configuration](#configuration)**                   | [Token](#token)                                       |
 | **[Connection](#connection)**                         | [Connect](#connect)                                   |
 | **[Connection](#connection)**                         | [Disconnect](#disconnect)                             |
-| **[Data](#data)**                                     | [Send Data](#send)                                    |
+| **[Data](#data)**                                     | [Send](#send)                                         |
 
 
 
@@ -41,7 +41,7 @@ EdgestreamClient _client = new EdgestreamClient(this.getApplicationContext());
 
 Configuration data is required only one time and will be stored by the SDK, if the device is to be re-purposed the token can be set again
 
-#### Set Token
+#### Token
 ```java
 // set the token via the client using the key and message received from add device 
 // returns true on successful configuration
@@ -80,7 +80,7 @@ _client.iotDisconnect();
 
 Manage data from device to the cloud and from the cloud to the device.
 
-### Send Data
+### Send
 
 Send telemetry data from device to Edgestream platform.
 
