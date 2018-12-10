@@ -7,7 +7,7 @@
 
 [//]: # (Image References)
 
-[image1]: ./docs/module_settings.png "Module Settings"
+[image1]: ./docs/embedded_framework.png "Embedded Framework"
 [image2]: ./docs/new_module.png "New Module"
 [image3]: ./docs/select_module_type.png "Select Module Type"
 [image4]: ./docs/select_binary.png "Select SDK Binary"
@@ -18,21 +18,35 @@
 This is currently the preview release for the EdgestreamSDK Binary Release. 
 
 ## Getting Started Guide
-Prior to starting development using the Edgestream SDK please ensure that you have the Android Studio IDE installed on your local development workstation.  The Latest Android Studio release can be found [here](https://developer.android.com/studio/).
+Prior to starting development using the Edgestream SDK please ensure that you have the Xcode IDE installed on your local development machine.  The Latest Xcode release can be found [here](https://developer.apple.com/xcode/).
 
-### Add SDK to a newly created project or existing project in Android Studio
-1. [Open](https://developer.android.com/studio/intro/migrate) or [Create](https://developer.android.com/studio/projects/create-project) a new project in Android Studio
-2. Once in Android Studio Open Module Settings by right-clicking on project to expose the context menu with Open Module Settings option on it.
+### Add SDK to a newly created project or existing project in Xcode as embedded framework
+1. [Download](https://github.com/edgespace-io/Edgestream/blob/master/IOS/EdgestreamSDK-Release/edgestreamSDK-Release.tar) edgestreamSDK-Release.tar for IOS and extract the Edgestream framework to the desktop using the tar command 
+```bash
+tar xvf edgestreamSDK-Release.tar ~/Desktop/
+```
+
+2. [Open or Create](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/BuildABasicUI.html#//apple_ref/doc/uid/TP40015214-CH5-SW3) a new project in Xcode
+
+2. Once in Xcode add framework as an embedded binary, by navigating to your Application Embedded Binaries settings clicking the plus sign and selecting the extracted framework edgesdk.framework on your desktop or location that you extracted the framework to.
 
 ![alt text][image1]
 
-3. Select New Module from the Dialog
+3. Once the library is added close the Xcode project and navigate to your project directory on the command line. Generate a Pod file by using the following command
+```bash
+pod init
+```
 
-![alt text][image2]
+4. Add the following dependencies to your Podfile
+```swift
+  pod 'AzureIoTHubClient', '~>1.2.11'
+  pod 'AzureIoTUtility', '~>1.1'
+  pod 'AzureIoTuMqtt', '~>1.1'
+  pod 'AzureIoTuAmqp', '~>1.2'
+  pod 'SwiftyRSA', '~>1.5'
+  pod 'CryptoSwift', '~>0.12'
 
-4. Select Import .jar/.aar package followed by next
-
-![alt text][image3]
+```
 
 5. browse to the EdgestreamSDK-release.aar binary and select it
 
