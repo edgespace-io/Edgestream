@@ -6,7 +6,7 @@
 
 This is the binary release of the Edgestream SDK library as a framework package that can be added to your own application. refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
 
-# MinClient
+# Sample-Device
 
 The MinClient directory contains a minimal IOS client application to test the SDK and provide an example of how to use the SDK. The Application can be opened from XCode.  Tested with Android XCode 10.1.
 
