@@ -8,12 +8,9 @@
 [//]: # (Image References)
 
 [image1]: ./docs/embedded_framework.png "Embedded Framework"
-[image2]: ./docs/new_module.png "New Module"
-[image3]: ./docs/select_module_type.png "Select Module Type"
-[image4]: ./docs/select_binary.png "Select SDK Binary"
-[image5]: ./docs/finish_import.png "Finish Import"
-[image6]: ./docs/add_module.png "Add Module"
-[image7]: ./docs/import_namespace.png "Import Namespace"
+[image2]: ./docs/configured_project.png "Configured Project"
+[image3]: ./docs/added_client.png "Edgestream Client"
+[image4]: ./docs/build_project.png "Clean and Build"
 
 This is currently the preview release for the EdgestreamSDK Binary Release. 
 
@@ -45,21 +42,21 @@ pod init
   pod 'AzureIoTuAmqp', '~>1.2'
   pod 'SwiftyRSA', '~>1.5'
   pod 'CryptoSwift', '~>0.12'
-
 ```
 
-5. browse to the EdgestreamSDK-release.aar binary and select it
+5. Install dependencies and create workspace by running the pod install command
+```bash
+pod install
+```
+
+6. Open Workspace project in Xcode
+
+![alt text][image2]
+
+7. Import edgesdk and add EdgestreamClient to your project. We demonstrate doing this in teh ViewController
+
+![alt text][image3]
+
+8. Clean and Build Project
 
 ![alt text][image4]
-
-6. Click finish to import the SDK
-
-![alt text][image5]
-
-7. Select the Dependencies tab and click the plus sign to add the module to your project
-
-![alt text][image6]
-
-8. Once added the option to import EdgestreamClient will exist
-
-![alt text][image7]
