@@ -38,7 +38,7 @@ pod init
 ```
 
 4. Add the following dependencies to your Podfile
-```swift
+```
   pod 'AzureIoTHubClient', '~>1.2.11'
   pod 'AzureIoTUtility', '~>1.1'
   pod 'AzureIoTuMqtt', '~>1.1'
