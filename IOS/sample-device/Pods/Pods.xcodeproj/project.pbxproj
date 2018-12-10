@@ -29,7 +29,6 @@
 		074B0D2FC6FE8D349AC482B06EA74245 /* link.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC6364E3622F07B02747F9CE0F145B /* link.c */; };
 		075960E63777439B50B6E8BB40DFB2EE /* multitree.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 56A93DD13F04D6C8FDB710DDD7944F1F /* multitree.h */; };
 		07CB80647C63863F46097ECFE0E2852C /* UInt64+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F52FC9BCB3F6B80D679F5B346193A78 /* UInt64+Extension.swift */; };
-		07DF35867735FF16883C37CA93D3927D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */; };
 		08BBE3B0A2885A94DE68FEEA9FBCD256 /* Array+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39937EF9B6CC062AF9239FAC96523E90 /* Array+Foundation.swift */; };
 		092F8530F5A52C437B891034DB0A7000 /* uws_frame_encoder.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = A29994B1EF85A2BADE3089CF135431DF /* uws_frame_encoder.h */; };
 		09E0EDFF48BBAE12F24E9332621F316C /* httpheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCB062B647781E444D71E1DA7BAD73E /* httpheaders.h */; };
@@ -52,6 +51,7 @@
 		0F261EE7A2800868CBCAB5179869A4F0 /* sasl_frame_codec.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 808BCF7E3792BAB9DD7218E175113A0A /* sasl_frame_codec.h */; };
 		0F47AECED76239456F530A9F34C202AB /* PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3899934A71CC5C90354B9CA3C40CB995 /* PBKDF2.swift */; };
 		0FA61E5C8DF8659576361707C6EDAC4E /* AzureIoTUtility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 572391634992807F74BEB8BF330071A6 /* AzureIoTUtility-dummy.m */; };
+		10092DE2F07D7A2273FC4B3B4681BEF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */; };
 		1044B965DABB8B5460189B7BBA153205 /* tickcounter.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 516217DD456296F1EB7BBBE2E7181775 /* tickcounter.h */; };
 		1074AC8A150ACAE243BACB0617485058 /* amqp_definitions_message_annotations.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 751A627BD3B1C7ABBEC7D13D6B864A2D /* amqp_definitions_message_annotations.h */; };
 		10B4C9EDBAE006B9B85C80A69811F457 /* amqp_management.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B75AA548FE0B6A6ADF929410BB7625F /* amqp_management.h */; };
@@ -79,7 +79,6 @@
 		18F63C7B080ECD2BC9DEDF03032A6F97 /* amqp_definitions_delivery_number.h in Headers */ = {isa = PBXBuildFile; fileRef = AD7C797BE1EDF9A286C8FA8ABE40EB7C /* amqp_definitions_delivery_number.h */; };
 		18FFD62C357D75F3F2F723D70AE29B70 /* iothub_client_core_common.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F3C21652C0F50BBB65EE17AE0E1DC9CC /* iothub_client_core_common.h */; };
 		193DCD40E766B5A9B93F66D62F17CCE3 /* EncryptedMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E87BC0216371D028246013062FE168 /* EncryptedMessage.swift */; };
-		19DA55F0EBA350698E3446754F51E9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */; };
 		19E0A5FA1BABB48C1B255573F4392035 /* amqp_definitions_rejected.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 79DE30F86CBEDF6A2F3458C99C93CC09 /* amqp_definitions_rejected.h */; };
 		1A3CA564761B01FC3D99DFD8EBD833DE /* BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BD2131347C37122B21CC73E758E08C /* BlockModeOptions.swift */; };
 		1BDF1A86DA9F01D7874F8E1AF46DF6B2 /* tlsio_options.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F2F25A0928552223167AE7B86BBB29 /* tlsio_options.h */; };
@@ -109,9 +108,9 @@
 		2295ECCD71260542B34E75CD11C70B73 /* xio.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 3F1884CC49C7C94410F60FD239D49541 /* xio.h */; };
 		2310A6B91F35CD8A883492049B49F921 /* amqp_definitions_header.h in Headers */ = {isa = PBXBuildFile; fileRef = B66603EAC072BB5862BA60CF31C800E0 /* amqp_definitions_header.h */; };
 		237BD4DF6E43B0061F493722B32E0D43 /* amqp_definitions_message_id_binary.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F874D6247069CCB41381C0F4DECB2B /* amqp_definitions_message_id_binary.h */; };
+		23916C64C98204C928896ABA4BE1DAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */; };
 		23BA112C655FA27BE38C9C321EBD3A4E /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C2DE46DD7D27F570D2D3FD0CC82EA0 /* Cipher.swift */; };
 		23F0A570968D790F291CDFF60A5C9993 /* iothubtransporthttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B545731D1D9CF870FB8F5A6828B49E9 /* iothubtransporthttp.h */; };
-		24791B12888106540B11BDC737E2A67F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE42E9A215FBB06CA76F798AFF3C2F50 /* Security.framework */; };
 		24A0ED51A2909124359D394DD9EE016D /* lock_pthreads.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6AD886A90B6D67B72B961ED808921 /* lock_pthreads.c */; };
 		24F631177DC82B1A248617D09EE1AF22 /* threadapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 811C2F1AD7D5AE3B100805A9BD851B38 /* threadapi.h */; };
 		2579669841569E74C0C586882DB2B3B2 /* utf8_checker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5E656E3517D7FEDF1BF6BEF99E60AA /* utf8_checker.h */; };
@@ -172,7 +171,6 @@
 		3874100201189A16244F9F53FEDB3370 /* iothub_transport_ll_private.c in Sources */ = {isa = PBXBuildFile; fileRef = E6BC485906DD5E030FA7F694E12DC360 /* iothub_transport_ll_private.c */; };
 		399AAF81C509488B155E3497C0EC77D1 /* AzureIoTUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730EC31FB8AB6124B6D2B167CD539F08 /* AzureIoTUtility.framework */; };
 		3A73C66F10621ABDDA6DA99B83737FD1 /* ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097907B2F71372CF7A203FED5136B4CD /* ChaCha20+Foundation.swift */; };
-		3B23157C4E6F9B0D64329EE265408550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */; };
 		3B559239E819282E5B5BC5014462CCAC /* string_token.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3DBF28AD01D5AD1608E7158D43E05 /* string_token.c */; };
 		3B7044BFCCF5A1A1BB6928DF34AC9A45 /* amqp_definitions_terminus_durability.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 52F6D8A0525FC257D101187706990577 /* amqp_definitions_terminus_durability.h */; };
 		3C64FA2DB626DB34D9922E63564345DD /* async_operation.h in Headers */ = {isa = PBXBuildFile; fileRef = A68F070D175474CA16EF97A5A86D92A8 /* async_operation.h */; };
@@ -272,6 +270,7 @@
 		6161B157797BC0EFA5F0876060010F51 /* iothubtransport_amqp_messenger.c in Sources */ = {isa = PBXBuildFile; fileRef = 87CF51B07BD7AA5B4EE37327F735426C /* iothubtransport_amqp_messenger.c */; };
 		61937CA6A0E37229CD55A82BA895F898 /* amqp_definitions_sequence_no.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C3D480AAE5601DE8794B5A98D2E520 /* amqp_definitions_sequence_no.h */; };
 		61F6D862AF0EFE2D5BE8621817B1A93C /* schema.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA461C114A8BD6E5B0F5ECFF67F3F30 /* schema.h */; };
+		61FF6EE1523595C76FE3A7788390A1EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */; };
 		6250C849EC89CF3BEC506070681F9CD4 /* amqp_definitions_delivery_tag.h in Headers */ = {isa = PBXBuildFile; fileRef = D78DFB1D7AA6EE0ACF1661D404AE3494 /* amqp_definitions_delivery_tag.h */; };
 		6267625045B836280517F6E2E0476A78 /* amqp_definitions_seconds.h in Headers */ = {isa = PBXBuildFile; fileRef = 45925A0079A8095F2A0F37E8E5CA9F65 /* amqp_definitions_seconds.h */; };
 		6278B165F5B3F57C9EF4E9791F84B80B /* iothubtransportamqp_websockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FEAE10ECEC85AA202BE7EE4EDE621C6 /* iothubtransportamqp_websockets.c */; };
@@ -316,7 +315,6 @@
 		73DFE8A2635E3AAE664433240D2BA08F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5C2921D6EE65CE0D949A0497F40ABA /* Message.swift */; };
 		73E2C615D367EB3FCE77C9D34530ABAA /* amqp_definitions_link_error.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 6727A9302FA3C8567A7825E7C2F39B6D /* amqp_definitions_link_error.h */; };
 		74DE9E4538B23B56025B0FF6588CA1BD /* amqp_definitions.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 958CFA711935DE9FA73B34B2DCC36CDD /* amqp_definitions.h */; };
-		75B37A7547C634C762F3589C4B78C30B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */; };
 		7667C83B754F93D32682CFB62E32C7EF /* string_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C1BF80C3B8996A090B97C690E96C64 /* string_tokenizer.h */; };
 		76DA4991D1ABE91700DFD23BAC3D6A1A /* iothubtransport_amqp_cbs_auth.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B6032C3C5F310340A8F1F98EB80D26 /* iothubtransport_amqp_cbs_auth.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		76E5AC27098119C593223D2205C8E561 /* AzureIoTuAmqp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF656C9571EEAD26F93ABF60195013E8 /* AzureIoTuAmqp.framework */; };
@@ -351,6 +349,7 @@
 		84E0BE487FD7D52C0312F31FD3568548 /* SwiftyRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C4D6045858D7C30CA4A26156C7E2AE /* SwiftyRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8713E2E798AD67BDEE18731B545D08F1 /* linux_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 219EA5AFB85D72474B0E0C20569D06D9 /* linux_time.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		87AD7C59BCF489584BAD6CEE8601F5AF /* message.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 5D2C5ABCE3468DA73D8166D9421F5DAA /* message.h */; };
+		880490D0C63E2603286AEAB68359B20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */; };
 		88A83345D802D7FE3253CD93F450E7EF /* SwiftyRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0929A8CA9D0BE96885E25EFB8B1D81FD /* SwiftyRSA.swift */; };
 		88E86C4BA377AD71C16E0CB70837EDA6 /* iothub_module_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E653A7E9D2DD36B0C8093E1D9D8D6B /* iothub_module_client.h */; };
 		890F8FF863A94E484450FBB5D67657D8 /* mqtt_message.c in Sources */ = {isa = PBXBuildFile; fileRef = C5B8F6677295213FBED98718BCC5C0E6 /* mqtt_message.c */; };
@@ -399,7 +398,6 @@
 		97C48FD2A2FD270052AF1A4076A13495 /* schemaserializer.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 73EF69F61540D0482C8BB283DA6B0B6F /* schemaserializer.h */; };
 		97CB877E589C7891831F9DD781736883 /* httpapiexsas.h in Headers */ = {isa = PBXBuildFile; fileRef = 38603698EAEE0185D497A0921DC49BE0 /* httpapiexsas.h */; };
 		97D85307763F8B8299524EEFD059729E /* StreamEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DF34514576E6EC9E57A70EA9894221 /* StreamEncryptor.swift */; };
-		98A31AC8B6099FD8825EE4432CB635FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */; };
 		98CE5D8CEA12C4F1326ED4F21307B660 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A018AD36DA137680AE577756EBC94A9 /* hmac.h */; };
 		98DA224F5999FBB83A4D2090F9CFBCFC /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F3510CB5CDC3513311512C29D4C18 /* AES.swift */; };
 		9928403B5F4BC5D8145C98443D4F9010 /* httpheaders.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 7DCB062B647781E444D71E1DA7BAD73E /* httpheaders.h */; };
@@ -459,6 +457,7 @@
 		AA735785DC80D2EE41442CA05B29FCDC /* gb_stdio.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 542CC06270CF1BD41C36854B64AEA8BC /* gb_stdio.h */; };
 		AB0AB99D278FD3206818BF1EE4ADB7A4 /* iothubtransporthttp.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BD884E3C33CCC90FB6F8611E3DD45 /* iothubtransporthttp.c */; };
 		ABC5995244FE0EBCEFD20A20DEF841E8 /* uws_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 842E4B322CF15918F05FB920660FD326 /* uws_client.c */; };
+		AC0A361EBF9ABB42B8C0FE814C6F176B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FE521BB5D1427B7E4D9FFDB9F5BF0A /* Security.framework */; };
 		AC51EA6362924128EF71750F0C24C0EC /* dataserializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CF39867D29EEEA9DB620979277C9BC0 /* dataserializer.c */; };
 		AC662FA7E50A7BDD956DFA26EC7EFCFB /* frame_codec.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = D6C4C7D85CCF4D5D27657928981E4C65 /* frame_codec.h */; };
 		AC6B769FCC9ECC878BC97AE1CFDBA5D1 /* sasl_mechanism.c in Sources */ = {isa = PBXBuildFile; fileRef = AE52520D1AB44E73D9AD4602D66DECBC /* sasl_mechanism.c */; };
@@ -525,7 +524,6 @@
 		C6B966F036C09465EAB17D52B14E2287 /* iothub_device_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3F6802587B4B1EF881C1DEF981859A /* iothub_device_client.h */; };
 		C706E4CBBDCF6442F2B3F42932F3FDF6 /* amqp_definitions_sasl_init.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB8FD159B47B8EC401EC52D69F134F4 /* amqp_definitions_sasl_init.h */; };
 		C78CAB9B94A6CDD94392E4E342C90062 /* amqp_definitions_link_error.h in Headers */ = {isa = PBXBuildFile; fileRef = 6727A9302FA3C8567A7825E7C2F39B6D /* amqp_definitions_link_error.h */; };
-		C7B9B43A59B253DE6A1F337870AC15BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */; };
 		C98D6E0F37DC4BAC212F07B6EF7EB2C6 /* iothub_client_core_ll.h in Headers */ = {isa = PBXBuildFile; fileRef = 148EA8D7146DC614A7F1EA5D89C529A2 /* iothub_client_core_ll.h */; };
 		CA5DAC89388D562BA93EC84368EFBA06 /* gballoc.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E38AD78D3FED93DEE0B1BFDE6469791 /* gballoc.c */; };
 		CBB8486F926D63B464C9AC2C7F4065F2 /* iothub_client_core_common.h in Headers */ = {isa = PBXBuildFile; fileRef = F3C21652C0F50BBB65EE17AE0E1DC9CC /* iothub_client_core_common.h */; };
@@ -549,6 +547,7 @@
 		D38FA56DC0BE10E8EFF2E812EED762B1 /* amqp_definitions_transfer.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = B87AD01833A9A71C20F720F9CFE67FB1 /* amqp_definitions_transfer.h */; };
 		D3D17E0C7389712D73797CB27C8E0016 /* sha-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 975EF3C85815B651834D0A1C947A445E /* sha-private.h */; };
 		D41CBBA4660B26D0AE12C867C2D27DF3 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EB0F14342BCB3F88AC71E28C9DD875 /* SHA1.swift */; };
+		D4340A7AA30760C016327EB98E4CC9A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */; };
 		D452B0C58143B548114C254B6B3204C4 /* methodreturn.c in Sources */ = {isa = PBXBuildFile; fileRef = 710D89BFD6C271B3D86D47274C4AC0C9 /* methodreturn.c */; };
 		D47ADEE7D403C88A3FC5E5792A0C6115 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = 534EB85100C37B32DAC275A19A0A6B17 /* vector.c */; };
 		D48906F313730C7FE49ADDBBE3083E30 /* mqtt_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB4C3686813CD15A0BB9BB58FCDA294 /* mqtt_client.h */; };
@@ -584,7 +583,6 @@
 		E10DE57113A74E2335602EE0C4F5F2F1 /* amqp_definitions_annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 32545BCEE0172DE2922766283F3213B8 /* amqp_definitions_annotations.h */; };
 		E13305A202F61AFBD4FA335F5A10A2AF /* iothub_client.h in Headers */ = {isa = PBXBuildFile; fileRef = 574A4ADEEC6592BEF2971C3B38A17E75 /* iothub_client.h */; };
 		E1705CF699458B16784782F8A86F23EB /* CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C29C945D66ED63BCEDF4E9DC670D99 /* CTR.swift */; };
-		E19CA50AC6F05CBA33DA1CCCBB98F2B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */; };
 		E21B60ED2A79ED259FC47941A46AA5A9 /* iothubtransportmqtt.c in Sources */ = {isa = PBXBuildFile; fileRef = D7D80957C18753E60096C94462953691 /* iothubtransportmqtt.c */; };
 		E25CC0BD6475813592D7722F3FCECA43 /* ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69035D54A12692E2B3996A5A3BBAC11 /* ECB.swift */; };
 		E2B68857DA06DFA0030E341F048E5FB4 /* mqtt_codec.c in Sources */ = {isa = PBXBuildFile; fileRef = F27A6468BF2185FCCA1272F6E557901C /* mqtt_codec.c */; };
@@ -598,6 +596,7 @@
 		E75E90803463838916C64908F0222B99 /* methodreturn.h in Headers */ = {isa = PBXBuildFile; fileRef = C693EA6EEAD0FCDA3D6F8926CC8C3FB1 /* methodreturn.h */; };
 		E766E43AFDF18D5012C83670A1B48A27 /* Blowfish+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6922BB34B4F876AF3B0969F67AD9775F /* Blowfish+Foundation.swift */; };
 		E791CF3274C60222ABFC2AF8B50F6CAA /* amqp_definitions_amqp_sequence.h in Copy azure_uamqp_c Public Headers */ = {isa = PBXBuildFile; fileRef = 316FF152C35926AD89F59FAB55386319 /* amqp_definitions_amqp_sequence.h */; };
+		E796DE3267813B194D34A0F1D46BEA4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */; };
 		E7C3C5ABCEB509D9DBD0046D143425B2 /* envvariable.h in Copy azure_c_shared_utility Public Headers */ = {isa = PBXBuildFile; fileRef = 36DE4E030C974CCBC068D8545C012815 /* envvariable.h */; };
 		E7EFF698B36891D091CAB6A944898A12 /* amqp_definitions_source.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD5DCED5FE83E4C434D47CEE9003DEF /* amqp_definitions_source.h */; };
 		E95B96819EB50E711D8846E77131649D /* codefirst.c in Sources */ = {isa = PBXBuildFile; fileRef = 26E97725C3874948EB62A84832470080 /* codefirst.c */; };
@@ -609,6 +608,7 @@
 		ECE2D92ACDF9A72197927DE20B446659 /* iothub_message.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 0610D8FFEDD88FA7D47EBF210ADDB9CB /* iothub_message.h */; };
 		ECFDBE0DFB6322485419BEB9D5E6CD6D /* lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A2AF90B3CAC6A3BAA3482CC4170CD7 /* lock.h */; };
 		ED0C0563EEE49DED5B73A539D49FF8E3 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 25199CAEEA2A78A75CBDEEE4116C169D /* base64.h */; };
+		ED758642C2BD30CE221FF4FC2917EAFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */; };
 		EDCBAD6FE0DC05519BE87FA79D6ECCD1 /* RandomBytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D83E7CDD0CCF29165252599159398 /* RandomBytesSequence.swift */; };
 		EF0DEDB75566285951C3DA894DDC7105 /* httpheaders.c in Sources */ = {isa = PBXBuildFile; fileRef = A501B1B31312847D4D59CA71E8CF780C /* httpheaders.c */; };
 		EF28C7B3EB4A5E69B0BE206A3F556FC0 /* datamarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = D246F1594C45FC8C53BDA440ACDEA6B8 /* datamarshaller.h */; };
@@ -1053,6 +1053,7 @@
 		26E97725C3874948EB62A84832470080 /* codefirst.c */ = {isa = PBXFileReference; includeInIndex = 1; name = codefirst.c; path = serializer/src/codefirst.c; sourceTree = "<group>"; };
 		28DAE69175791E914062B45D95393702 /* OFB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OFB.swift; path = Sources/CryptoSwift/BlockMode/OFB.swift; sourceTree = "<group>"; };
 		28DB428C5F812504F3C80D7831F1635A /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = Sources/CryptoSwift/CompactMap.swift; sourceTree = "<group>"; };
+		28FE521BB5D1427B7E4D9FFDB9F5BF0A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2A877CB14A52B119EAA91B0E545F58DB /* parson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parson.h; path = inc/parson.h; sourceTree = "<group>"; };
 		2ABEFE786E28D2F6553BF65F77FBE382 /* Asn1Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asn1Parser.swift; path = Source/Asn1Parser.swift; sourceTree = "<group>"; };
 		2AC232DC73E8085864DD880214F1D756 /* amqp_definitions_modified.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_modified.h; path = inc/azure_uamqp_c/amqp_definitions_modified.h; sourceTree = "<group>"; };
@@ -1202,7 +1203,6 @@
 		710D89BFD6C271B3D86D47274C4AC0C9 /* methodreturn.c */ = {isa = PBXFileReference; includeInIndex = 1; name = methodreturn.c; path = serializer/src/methodreturn.c; sourceTree = "<group>"; };
 		720AE9F6810197FF35E6F4AEEA8CD95A /* string_tokenizer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = string_tokenizer.c; path = src/string_tokenizer.c; sourceTree = "<group>"; };
 		723EF085154713E95859BD306D443B3C /* AzureIoTHubClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AzureIoTHubClient.modulemap; sourceTree = "<group>"; };
-		7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7271D5E766C5F1B737BE706B747DCF96 /* linux_time.c */ = {isa = PBXFileReference; includeInIndex = 1; name = linux_time.c; path = adapters/linux_time.c; sourceTree = "<group>"; };
 		72C8392308BCB673227D3F2DE2D3061A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		730EC31FB8AB6124B6D2B167CD539F08 /* AzureIoTUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AzureIoTUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1340,6 +1340,7 @@
 		BF31F12F3B5FF7374895450C4F8729A9 /* iothubtransport_amqp_common.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_common.c; path = iothub_client/src/iothubtransport_amqp_common.c; sourceTree = "<group>"; };
 		BF33775BB33F0825DC2236E2DBBE15A7 /* amqp_definitions_end.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amqp_definitions_end.h; path = inc/azure_uamqp_c/amqp_definitions_end.h; sourceTree = "<group>"; };
 		BF6706F0BD5C792BC1F73EFEBA75263D /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
+		C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C2F886FD3EB55B9D566370478E023415 /* sha224.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha224.c; path = src/sha224.c; sourceTree = "<group>"; };
 		C31C1D4A909C85996F66999DAD6BF8A9 /* amqp_frame_codec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = amqp_frame_codec.c; path = src/amqp_frame_codec.c; sourceTree = "<group>"; };
 		C3AE78EC7C2AE68077BFE92B39AED1D4 /* iothub_client_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iothub_client_version.h; path = inc/iothub_client_version.h; sourceTree = "<group>"; };
@@ -1362,7 +1363,6 @@
 		CDDECE610AD9E76014FD00CE19B4262C /* iothubtransport_amqp_twin_messenger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothubtransport_amqp_twin_messenger.c; path = iothub_client/src/iothubtransport_amqp_twin_messenger.c; sourceTree = "<group>"; };
 		CDEFACD5D193C3813FB49E6A747425FF /* NSData+SHA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SHA.m"; path = "Source/NSData+SHA.m"; sourceTree = "<group>"; };
 		CE270B38ECE317BF75AA6C02B4FF913E /* iothub_module_client_ll.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iothub_module_client_ll.c; path = iothub_client/src/iothub_module_client_ll.c; sourceTree = "<group>"; };
-		CE42E9A215FBB06CA76F798AFF3C2F50 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		CFA04696DF03F0A5DF281E9B0A1FB9A8 /* async_operation.c */ = {isa = PBXFileReference; includeInIndex = 1; name = async_operation.c; path = src/async_operation.c; sourceTree = "<group>"; };
 		CFE7F622642B9578C016818A866BBD6A /* singlylinkedlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = singlylinkedlist.h; path = inc/azure_c_shared_utility/singlylinkedlist.h; sourceTree = "<group>"; };
 		CFF6C84581A3E57138B84ADCFE0A5512 /* gbnetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gbnetwork.h; path = inc/azure_c_shared_utility/gbnetwork.h; sourceTree = "<group>"; };
@@ -1466,7 +1466,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19DA55F0EBA350698E3446754F51E9FC /* Foundation.framework in Frameworks */,
+				23916C64C98204C928896ABA4BE1DAE6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1474,8 +1474,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07DF35867735FF16883C37CA93D3927D /* Foundation.framework in Frameworks */,
-				24791B12888106540B11BDC737E2A67F /* Security.framework in Frameworks */,
+				E796DE3267813B194D34A0F1D46BEA4F /* Foundation.framework in Frameworks */,
+				AC0A361EBF9ABB42B8C0FE814C6F176B /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1484,7 +1484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C682253AD496BF434D58588586383642 /* AzureIoTUtility.framework in Frameworks */,
-				3B23157C4E6F9B0D64329EE265408550 /* Foundation.framework in Frameworks */,
+				ED758642C2BD30CE221FF4FC2917EAFC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1492,7 +1492,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B9B43A59B253DE6A1F337870AC15BD /* Foundation.framework in Frameworks */,
+				61FF6EE1523595C76FE3A7788390A1EF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1500,7 +1500,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75B37A7547C634C762F3589C4B78C30B /* Foundation.framework in Frameworks */,
+				880490D0C63E2603286AEAB68359B20A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1511,7 +1511,7 @@
 				76E5AC27098119C593223D2205C8E561 /* AzureIoTuAmqp.framework in Frameworks */,
 				9E37D9D1810E5EF7C32A90520B49113C /* AzureIoTuMqtt.framework in Frameworks */,
 				399AAF81C509488B155E3497C0EC77D1 /* AzureIoTUtility.framework in Frameworks */,
-				E19CA50AC6F05CBA33DA1CCCBB98F2B4 /* Foundation.framework in Frameworks */,
+				10092DE2F07D7A2273FC4B3B4681BEF7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1520,7 +1520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3BC46831B0A00668434D62DB6F1D9CD /* AzureIoTUtility.framework in Frameworks */,
-				98A31AC8B6099FD8825EE4432CB635FC /* Foundation.framework in Frameworks */,
+				D4340A7AA30760C016327EB98E4CC9A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1904,7 +1904,7 @@
 				FF656C9571EEAD26F93ABF60195013E8 /* AzureIoTuAmqp.framework */,
 				1709C35AEFB2D055B6E6ABBA05786E57 /* AzureIoTuMqtt.framework */,
 				730EC31FB8AB6124B6D2B167CD539F08 /* AzureIoTUtility.framework */,
-				C1784D8A57B72B0F194F565F2A0BE7FB /* iOS */,
+				BF917A32911CD3ACFA713309EBEAE1AF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2021,11 +2021,11 @@
 			path = "Target Support Files/Pods-sample-device";
 			sourceTree = "<group>";
 		};
-		C1784D8A57B72B0F194F565F2A0BE7FB /* iOS */ = {
+		BF917A32911CD3ACFA713309EBEAE1AF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7247A4CC4B16F6A19A1D23DE25A25BC4 /* Foundation.framework */,
-				CE42E9A215FBB06CA76F798AFF3C2F50 /* Security.framework */,
+				C06FAAEEBBF580202B01F409C820BDAC /* Foundation.framework */,
+				28FE521BB5D1427B7E4D9FFDB9F5BF0A /* Security.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -3064,45 +3064,7 @@
 			};
 			name = Debug;
 		};
-		171FF3D4F73739F282B7190FF715F8AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A20A3DEA64EFAA4BC5C182D809939C7 /* CryptoSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
-				PRODUCT_MODULE_NAME = CryptoSwift;
-				PRODUCT_NAME = CryptoSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2C7884CCEB97CDC961F5518C977709E3 /* Release */ = {
+		114EA39810B9661D842B7031F54EFD2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6500C6083E65C5ED12D7C130291D08BB /* SwiftyRSA.xcconfig */;
 			buildSettings = {
@@ -3130,9 +3092,81 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		232077665B2DE5CAFEF5868388C10650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3CD5D9E25D493EE26F326BC9353B0D /* Pods-sample-device.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sample-device/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sample-device/Pods-sample-device.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E2AF3967E1808929307BB8C97A1307B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A20A3DEA64EFAA4BC5C182D809939C7 /* CryptoSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				PRODUCT_MODULE_NAME = CryptoSwift;
+				PRODUCT_NAME = CryptoSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3175,6 +3209,105 @@
 			};
 			name = Debug;
 		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6502856E696D56AA2E1C93B66010D18B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E3E7685F389EE7B65B1B7C73D46518 /* Pods-sample-device.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-sample-device/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-sample-device/Pods-sample-device.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		66A87FDD3F2D68EBDEEF414B1B71C51B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3F479EF63B02E6576009FC8F6416BE4 /* AzureIoTUtility.xcconfig */;
@@ -3200,6 +3333,41 @@
 				MODULEMAP_FILE = "Target Support Files/AzureIoTUtility/AzureIoTUtility.modulemap";
 				PRODUCT_MODULE_NAME = AzureIoTUtility;
 				PRODUCT_NAME = AzureIoTUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68496C4506BCA0DFAA4F2F9D2CBB38AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A20A3DEA64EFAA4BC5C182D809939C7 /* CryptoSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
+				PRODUCT_MODULE_NAME = CryptoSwift;
+				PRODUCT_NAME = CryptoSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -3246,47 +3414,7 @@
 			};
 			name = Release;
 		};
-		7979028431FEB11638C179D93AA787A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82E3E7685F389EE7B65B1B7C73D46518 /* Pods-sample-device.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-sample-device/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sample-device/Pods-sample-device.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -3339,77 +3467,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		90F86D897B3396673728048C7B947620 /* Debug */ = {
+		94D7270660123CE538FCCE920FA3FB2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6500C6083E65C5ED12D7C130291D08BB /* SwiftyRSA.xcconfig */;
 			buildSettings = {
@@ -3437,7 +3508,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3553,47 +3623,6 @@
 			};
 			name = Release;
 		};
-		DB63D380C62EA48DE935D762CCCBBA7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C3CD5D9E25D493EE26F326BC9353B0D /* Pods-sample-device.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-sample-device/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sample-device/Pods-sample-device.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E434FE894CA5AECF7D2C839B2AA634A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D61689C6FA16EFB11B3C26D6345CF37 /* AzureIoTuAmqp.xcconfig */;
@@ -3629,42 +3658,6 @@
 			};
 			name = Debug;
 		};
-		F97514C245B2192E48C406A19F92CB1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A20A3DEA64EFAA4BC5C182D809939C7 /* CryptoSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CryptoSwift/CryptoSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CryptoSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CryptoSwift/CryptoSwift.modulemap";
-				PRODUCT_MODULE_NAME = CryptoSwift;
-				PRODUCT_NAME = CryptoSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3680,8 +3673,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
-				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3689,8 +3682,8 @@
 		51F3C2E55D1059044443D2089F3A7E40 /* Build configuration list for PBXNativeTarget "SwiftyRSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90F86D897B3396673728048C7B947620 /* Debug */,
-				2C7884CCEB97CDC961F5518C977709E3 /* Release */,
+				94D7270660123CE538FCCE920FA3FB2B /* Debug */,
+				114EA39810B9661D842B7031F54EFD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3725,8 +3718,8 @@
 		8292BE0D9164B6CA74EDE2D0B4A9C609 /* Build configuration list for PBXNativeTarget "CryptoSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F97514C245B2192E48C406A19F92CB1B /* Debug */,
-				171FF3D4F73739F282B7190FF715F8AF /* Release */,
+				68496C4506BCA0DFAA4F2F9D2CBB38AF /* Debug */,
+				2E2AF3967E1808929307BB8C97A1307B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3734,8 +3727,8 @@
 		8B570BF1EC6AC76544205B5CC730DE4B /* Build configuration list for PBXNativeTarget "Pods-sample-device" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7979028431FEB11638C179D93AA787A8 /* Debug */,
-				DB63D380C62EA48DE935D762CCCBBA7C /* Release */,
+				6502856E696D56AA2E1C93B66010D18B /* Debug */,
+				232077665B2DE5CAFEF5868388C10650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

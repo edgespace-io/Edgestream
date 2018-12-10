@@ -8,62 +8,97 @@
 		<data>
 		luoOcZIH+TwgD1XhPjH3hCWkn20=
 		</data>
-		<key>Headers/edgesdk.h</key>
-		<data>
-		tTIF4LIhCa89ZW0YqsWVCfKmtco=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		KhV8osbztp3TDwxDrf8DfmoKuo8=
+		hYgKddGs/DOinXfQm+jITYv2Ih4=
+		</data>
+		<key>Modules/edgesdk.swiftmodule/i386.swiftdoc</key>
+		<data>
+		cBeYHrGmJlqGRS8/hbEAPbEye6A=
+		</data>
+		<key>Modules/edgesdk.swiftmodule/i386.swiftmodule</key>
+		<data>
+		C/odZYB/iBPBpEN2y/50vg80D10=
 		</data>
 		<key>Modules/edgesdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		OSz899a41lKA63YffJ+on8SWcs8=
+		bUMTpZUss03bWFMjhMhSr7OIVPk=
 		</data>
 		<key>Modules/edgesdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		V920cRTfxHHElayhOTtoN/2xkoo=
+		/S/uhXrfmrep8U2BmTpcbxSs8XU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		kIbsijlD7Xl1Rn/oNvgXL6ZJGr0=
+		tOLI4FifBuYAah4Stg/PP2ypcxU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/edgesdk-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			luoOcZIH+TwgD1XhPjH3hCWkn20=
+			</data>
 			<key>hash2</key>
 			<data>
 			1wjqj/VkB0B3lpZyzHWUs1L56ZeWQKQd/oHYCbo8/Xs=
 			</data>
 		</dict>
-		<key>Headers/edgesdk.h</key>
+		<key>Modules/edgesdk.swiftmodule/i386.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			cBeYHrGmJlqGRS8/hbEAPbEye6A=
+			</data>
 			<key>hash2</key>
 			<data>
-			EXJiK3coVgohYxc2qq3oZl8992XwI/DmloIM7/ZKxro=
+			mk9b3eGfoxVdyLRm6AZ99rdjYNUjNOBYjvl18Zfz4RI=
+			</data>
+		</dict>
+		<key>Modules/edgesdk.swiftmodule/i386.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C/odZYB/iBPBpEN2y/50vg80D10=
+			</data>
+			<key>hash2</key>
+			<data>
+			IRXh+TwEgnWN2kr5uuzKlRQoMKBJeFN4VJSFcSRjEnI=
 			</data>
 		</dict>
 		<key>Modules/edgesdk.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bUMTpZUss03bWFMjhMhSr7OIVPk=
+			</data>
 			<key>hash2</key>
 			<data>
-			W7l7e6LoiInHIoRKqTAu53IGPCA+Jd8KEAAUHuxfPwo=
+			2YRkAtznwOSL9NS645IfRngJoZC/ojc0l/6VAAYaoEE=
 			</data>
 		</dict>
 		<key>Modules/edgesdk.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/S/uhXrfmrep8U2BmTpcbxSs8XU=
+			</data>
 			<key>hash2</key>
 			<data>
-			14vsJaOV8h6xCLYYMKbeagzw+oYITJgy0OAqqrVEBn0=
+			IM7VUI7LFdS+yTwjJPyzU2f0aytCJzkGMbw34oHDEmw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tOLI4FifBuYAah4Stg/PP2ypcxU=
+			</data>
 			<key>hash2</key>
 			<data>
-			gBdd54vAU9mXDLplhq4tbChY19omYQkLetUUdm186M4=
+			bwBhcWaBioo6rXdOiziPcDUk/T/VbkRb65bIPs3Duo4=
 			</data>
 		</dict>
 	</dict>
