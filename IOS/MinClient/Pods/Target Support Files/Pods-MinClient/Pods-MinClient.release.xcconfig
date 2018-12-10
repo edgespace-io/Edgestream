@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+ALWAYS_SEARCH_USER_PATHS = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTHubClient" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTUtility" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTuAmqp" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTuMqtt" "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyRSA" "${PODS_CONFIGURATION_BUILD_DIR}/edgesdk"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AzureIoTHubClient/inc/" "${PODS_ROOT}/AzureIoTUtility/inc/" "${PODS_ROOT}/AzureIoTuMqtt/inc/" "${PODS_ROOT}/AzureIoTuAmqp/inc/" "${PODS_ROOT}/AzureIoTUtility/inc/" "${PODS_ROOT}/AzureIoTUtility/inc/" "${PODS_ROOT}/AzureIoTuAmqp/inc/" "${PODS_ROOT}/AzureIoTUtility/inc/" "${PODS_ROOT}/AzureIoTuMqtt/inc/"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTHubClient/AzureIoTHubClient.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTUtility/AzureIoTUtility.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTuAmqp/AzureIoTuAmqp.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTuMqtt/AzureIoTuMqtt.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyRSA/SwiftyRSA.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/edgesdk/edgesdk.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AzureIoTHubClient" -framework "AzureIoTUtility" -framework "AzureIoTuAmqp" -framework "AzureIoTuMqtt" -framework "CryptoSwift" -framework "SwiftyRSA" -framework "edgesdk"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

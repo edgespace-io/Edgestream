@@ -1,0 +1,11 @@
+framework module edgesdk {
+  umbrella header "edgesdk.h"
+
+  export *
+  module * { export * }
+}
+
+module edgesdk.Swift {
+    header "edgesdk-Swift.h"
+    requires objc
+}
