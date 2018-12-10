@@ -1,0 +1,18 @@
+project 'sample-device.xcodeproj/'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'sample-device' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for sample-device
+  pod 'AzureIoTHubClient', '~>1.2.11'
+  pod 'AzureIoTUtility', '~>1.1'
+  pod 'AzureIoTuMqtt', '~>1.1'
+  pod 'AzureIoTuAmqp', '~>1.2'
+  pod 'SwiftyRSA', '~>1.5'
+  pod 'CryptoSwift', '~>0.12'
+
+end
