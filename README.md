@@ -17,3 +17,7 @@ The Android SDK is for interfacing with the Edgestream platform for sending tele
 
 The IOS SDK is for interfacing with the Edgestream platform for sending telemetry and custom data for processing and storage.
 
+### [Edgestream Listener](Edgestream-Listener)
+![Current State: Preview Release](https://img.shields.io/badge/Current_State-Preview_Release-brightgreen.svg)
+
+The Edgestream Lisetener connects to the Edgestream IOT HUB and listens for incoming data for visualizing the data being sent by the clients for testing.
