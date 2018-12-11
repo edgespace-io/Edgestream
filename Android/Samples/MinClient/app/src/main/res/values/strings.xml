@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">MinClient</string>
-    <string name="send_data">Send Data</string>
-    <string name="stop_client">Stop Client</string>
-</resources>

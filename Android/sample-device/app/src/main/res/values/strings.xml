@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Edgestream Client Example</string>
+    <string name="stop_client">Stop Client</string>
+    <string name="send_data">Send Data</string>
+    <string name="disconnect">DISCONNECT</string>
+    <string name="connect">Connect</string>
+    <string name="edgesdk_android">EdgeSDK Android</string>
+    <string name="zero_value">0</string>
+    <string name="send_failures">Send Failures:</string>
+    <string name="messages_sent">Messages Sent:</string>
+    <string name="last_message_sent">Last Message Sent:</string>
+    <string name="none"><![CDATA[<none>]]></string>
+    <string name="receipts_received">Receipts Received:</string>
+    <string name="messages_confirmed">Messages Confirmed:</string>
+</resources>
