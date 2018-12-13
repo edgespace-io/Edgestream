@@ -1,0 +1,14 @@
+{
+  "name": "edgeiot-listener-nodejs",
+  "version": "1.0.0",
+  "description": "Node Queue Listener used to verify client data is getting to the Edgecloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Vigelette",
+  "license": "ISC",
+  "dependencies": {
+    "azure": "^2.3.1-preview"
+  }
+}
