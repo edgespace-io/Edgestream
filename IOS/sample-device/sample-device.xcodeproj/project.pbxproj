@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48111B2721C2C72800069FF3 /* edgesdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111B2621C2C72800069FF3 /* edgesdk.framework */; };
-		48111B2821C2C72800069FF3 /* edgesdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48111B2621C2C72800069FF3 /* edgesdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		48E12A0621BE26AF000503AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E12A0521BE26AF000503AC /* AppDelegate.swift */; };
 		48E12A0821BE26AF000503AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E12A0721BE26AF000503AC /* ViewController.swift */; };
 		48E12A0B21BE26AF000503AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E12A0921BE26AF000503AC /* Main.storyboard */; };
 		48E12A0D21BE26AF000503AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E12A0C21BE26AF000503AC /* Assets.xcassets */; };
 		48E12A1021BE26AF000503AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E12A0E21BE26AF000503AC /* LaunchScreen.storyboard */; };
+		48FED7AF21C8C1BB007D2DB6 /* edgesdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FED7AE21C8C1BA007D2DB6 /* edgesdk.framework */; };
+		48FED7B021C8C1BB007D2DB6 /* edgesdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48FED7AE21C8C1BA007D2DB6 /* edgesdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7C03A47E5C1FD5251BB72B79 /* Pods_sample_device.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BA1B28C0FB3CC8B6F9EBE7 /* Pods_sample_device.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				48111B2821C2C72800069FF3 /* edgesdk.framework in Embed Frameworks */,
+				48FED7B021C8C1BB007D2DB6 /* edgesdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +35,6 @@
 		15CA115A817183709110F62B /* Pods-sample-device.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-device.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-device/Pods-sample-device.debug.xcconfig"; sourceTree = "<group>"; };
 		1621760DF184A1F0399222C2 /* Pods-sample-device.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-device.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-device/Pods-sample-device.release.xcconfig"; sourceTree = "<group>"; };
 		16BA1B28C0FB3CC8B6F9EBE7 /* Pods_sample_device.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_device.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48111B2621C2C72800069FF3 /* edgesdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = edgesdk.framework; sourceTree = "<group>"; };
 		48E12A0221BE26AF000503AC /* sample-device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E12A0521BE26AF000503AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48E12A0721BE26AF000503AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		48E12A0C21BE26AF000503AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48E12A0F21BE26AF000503AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48E12A1121BE26AF000503AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FED7AE21C8C1BA007D2DB6 /* edgesdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = edgesdk.framework; path = ../../../Desktop/Products/edgesdk.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48111B2721C2C72800069FF3 /* edgesdk.framework in Frameworks */,
+				48FED7AF21C8C1BB007D2DB6 /* edgesdk.framework in Frameworks */,
 				7C03A47E5C1FD5251BB72B79 /* Pods_sample_device.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +69,7 @@
 		48E129F921BE26AF000503AC = {
 			isa = PBXGroup;
 			children = (
-				48111B2621C2C72800069FF3 /* edgesdk.framework */,
+				48FED7AE21C8C1BA007D2DB6 /* edgesdk.framework */,
 				48E12A0421BE26AF000503AC /* sample-device */,
 				48E12A0321BE26AF000503AC /* Products */,
 				80C89B5B3EBBCA83C2F042CA /* Pods */,
@@ -388,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74U4A6W944;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -412,6 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74U4A6W944;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
