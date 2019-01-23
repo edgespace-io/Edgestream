@@ -35,5 +35,5 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.microsoft.azure.sdk.iot:iot-device-client:1.14.2'
-    implementation project(':EdgestreamSDK-release')
+    implementation project(':EdgestreamSDK-v1-release')
 }

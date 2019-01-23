@@ -5,16 +5,22 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONObject;
 
 import io.edgestream.edgesdk.EdgestreamClient;
+import io.edgestream.edgesdk.EdgestreamMessageEventCallback;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity implements EdgestreamMessageEventCallback {
 
     EdgestreamClient _client;
     private String TAG = "Android Template";
     private TextView sentCount;
+    private TextView sendFailures;
+    private TextView receiveCount;
+    private TextView msgsConfirmed;
     private TextView lastMessage;
 
     /*  the below is the result from the RegisterDevice call that returns the below json structure the msg contains the token
@@ -34,15 +40,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         sentCount = findViewById(R.id.lblMessagesSent);
+        sendFailures = findViewById(R.id.lblSendFailures);
+        receiveCount = findViewById(R.id.lblMessagesReceived);
+        msgsConfirmed = findViewById(R.id.lblReceiptConfirmed);
         lastMessage = findViewById(R.id.lastMessage);
         try {
             _client = new EdgestreamClient(this.getApplicationContext());
+            _client.RegisterEdgestreamMessageEventCallback(this);
+            Log.d(TAG, "Event Message Callback Registered: " + _client.isEdgestreamMessageEventCallbackRegistered());
             if(!_client.isRegistered()) {
                 _client.setToken(demoKey, demoToken);
             }
         }catch(Exception ex){
             Log.e(TAG, ex.getMessage());
         }
+
     }
 
     public void btnStopOnClick(View view) {
@@ -76,12 +88,38 @@ public class MainActivity extends AppCompatActivity {
             data.put("temperature", temperature);
             data.put("humidity", humidity);
 
-            _client.sendData(data);
-            sentCount.setText(""+ _client.getMessgesSent());
-            lastMessage.setText(data.toString());
+            if(_client.sendData(data)){
+                sentCount.setText(""+ _client.getMessgesSent());
+                lastMessage.setText(data.toString());
+            }else {
+                sendFailures.setText(Integer.toString(_client.getSendMessageFailures()));
+            }
         }catch(Exception ex){
             Log.e(TAG, ex.getMessage());
         }
     }
 
+    // Edgestream Client Callbacks
+    @Override
+    public void edgeEventCallback(final byte[] message) {
+        // callback is from a background thread and needs to run on the UI thread to display
+        this.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Toast.makeText(getApplicationContext(), new String(message), Toast.LENGTH_SHORT).show();
+                receiveCount.setText(Integer.toString(_client.getMessgesReceived()));
+            }
+        });
+    }
+
+    @Override
+    public void sendMessageReceiptConfirmations(final int count) {
+        this.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                msgsConfirmed.setText(Integer.toString(count));
+            }
+        });
+    }
 }
+

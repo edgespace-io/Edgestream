@@ -1,1 +1,1 @@
-include ':app', ':EdgestreamSDK-release'
+include ':app', ':EdgestreamSDK-v1-release'
