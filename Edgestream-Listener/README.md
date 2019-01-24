@@ -6,9 +6,7 @@
 
 # Edgestream Listener
 
-This is the binary release of the Edgestream IOT listener that allows the end user to monitor data sent to the Edge Cloud.  Unzip the EdgeIOT-Listener.zip file and run the exe from the command prompt.
-```
-SB-Listener.exe
-```
+This is the binary release of the Edgestream IOT listener that allows the end user to monitor data sent to the Edge Cloud.  NodeJS version of the test software can be found in the [EdgeIOT-Listener-NodeJS](EdgeIOT-Listener-NodeJS/) 
+
 
 ![alt text][image1]
