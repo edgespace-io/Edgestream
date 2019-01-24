@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements EdgestreamMessage
     private TextView receiveCount;
     private TextView msgsConfirmed;
     private TextView lastMessage;
+    private TextView lastMessageReceived;
 
     /*  the below is the result from the RegisterDevice call that returns the below json structure the msg contains the token
      *
@@ -44,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements EdgestreamMessage
         receiveCount = findViewById(R.id.lblMessagesReceived);
         msgsConfirmed = findViewById(R.id.lblReceiptConfirmed);
         lastMessage = findViewById(R.id.lastMessage);
+        lastMessageReceived = findViewById(R.id.lastMessageReceived);
+
         try {
             _client = new EdgestreamClient(this.getApplicationContext());
             _client.RegisterEdgestreamMessageEventCallback(this);
@@ -106,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements EdgestreamMessage
         this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(getApplicationContext(), new String(message), Toast.LENGTH_SHORT).show();
+                lastMessageReceived.setText((new String(message)));
                 receiveCount.setText(Integer.toString(_client.getMessgesReceived()));
             }
         });
