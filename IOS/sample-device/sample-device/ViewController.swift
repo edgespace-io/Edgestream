@@ -10,6 +10,10 @@ import UIKit
 import edgesdk
 import Foundation
 
+extension Notification.Name{
+    static let messageDataReceived = Notification.Name("messageDataReceived")
+}
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var btnConnect: UIButton!
@@ -24,12 +28,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var lblLastRcvd: UILabel!
     @IBOutlet weak var lblLastSent: UILabel!
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
     /*  the below is the result from the RegisterDevice call that returns the below json structure the msg contains the token
      *
      *   {
@@ -41,14 +39,12 @@ class ViewController: UIViewController {
      * */
     let _demoKey:String = "JLRYm8h68K5oNw4QnzA4QHIjYEA7hQNe2jEQJJf3t81/UdyaCSaRyqasFKtzJJK/+8snZKdMU/PJFt979vZG7M/srwRyEHa5yFKtJQrJ1d6cjWwFUtf4QMvRmJn6PJTWXntqAzDmg6TYYcfOtCPbXzW4KvACzFEJYFwV1S81HQY="
     
-    let _demoToken:String = "yJWwbJJHgqOqJqGak+OePvFMquWvgOD7GmE29aPqAexvarUTbxpLSlwgtzDyfOEyrU+2YNj2CT8PXcaZK79uqvmkjQzjm12ggcfbyk6i8fW98WKMLQdSCgElKYB7vD9I75uWIMNRBNYgy2LFx43xgImIj5+EjU8PQOdakLw/x066nj5L3EQaT9ebTIMnD2piJ5ObW9kWUYHofxrIO8Ls0Vbj1R5jdXbkza2Oe2Y/HsmGIqdZ6mcRFg84mRmnhTxRR6xRntAu/CquOIEVDWIJU+BzzED4LhHfdBEYfluwCdgZ0SY5vCdOsbW5kv3BExXv6sxOthqSoIoEiJb/T0fynn6yudcjLQ7P9k+ffneEukMyIVpOFFJL3ZUuwf0W3vy8pwwlGy9MGdPHeCdvY07UGA=="
- /*
-     let _demoToken:String = "yJWwbJJHgqOqJqGak+OePvFMquWvgOD7GmE29aPqAexvarUTbxpLSlwgtzDyfOEyrU+2YNj2CT8PXcaZK79uql4OEbhjqeOQEkzX1jz/GkMed1JB5qsXWFuD7kFKsyFkgwm0Wm2bwpA3S7tKGjmZLk2oJ6UVmUp/fusOz4iDimK9m2mWfjxUwqXKk9Yn2V9WxTD5q+CKbRrUW9IujAZE9x1ZDDKFbPqkzeglnmwF1rrRSusFK+BBXmQISj5q4/nEm9CffVsIUCJb8bxuHToS0Co77srKQm8WbWBHBlvMHgtq1WIYaLGxoOlSsxbfhlPs5GWGW+YLjkcK+2A349PylX6vUlRAS5lPkcz+Kigeyx4=="
-     */
+    let _demoToken:String = "yJWwbJJHgqOqJqGak+OePvFMquWvgOD7GmE29aPqAexvarUTbxpLSlwgtzDyfOEyrU+2YNj2CT8PXcaZK79uql4OEbhjqeOQEkzX1jz/GkMed1JB5qsXWFuD7kFKsyFkgwm0Wm2bwpA3S7tKGjmZLk2oJ6UVmUp/fusOz4iDimK9m2mWfjxUwqXKk9Yn2V9WxTD5q+CKbRrUW9IujAZE9x1ZDDKFbPqkzeglnmwF1rrRSusFK+BBXmQISj5q4/nEm9CffVsIUCJb8bxuHToS0Co77srKQm8WbWBHBlvMHgtq1WIYaLGxoOlSsxbfhlPs5GWGW+YLjkcK+2A349PylX6vUlRAS5lPkcz+Kigeyx4="
+
     
     // Edgestream Client instance
-    let _client:EdgestreamClient
-    
+    private var _client:EdgestreamClient = EdgestreamClient()
+    private let notificationCenter:NotificationCenter = .default
     
     var cntSent = 0
     var cntGood: Int = 0
@@ -56,9 +52,19 @@ class ViewController: UIViewController {
     var cntRcvd = 0
     var randomTelem : String!
     
+    deinit {
+        // remove observer
+        notificationCenter.removeObserver(self)
+        
+        if(_client.iotDisconnect()){
+            print("Disconnected from IOT Hub")
+        }else{
+            print("Failed to disconnect from IOT Hub")
+        }
+    }
+    
     required init?(coder aDecoder: NSCoder) {
         print("init coder style")
-        _client = EdgestreamClient()
         super.init(coder: aDecoder)
         if((_client.isRegistered)){
             print("registered")
@@ -72,6 +78,17 @@ class ViewController: UIViewController {
                 print("Set token")
             }
         }
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        notificationCenter.addObserver(self,
+                                       selector: #selector(onMessageDataReceived(_:)),
+                                       name: .messageDataReceived,
+                                       object: nil
+        )
     }
     
     // Timers used to control message and polling rates
@@ -138,11 +155,29 @@ class ViewController: UIViewController {
         
     }
     
+    @objc func onMessageDataReceived(_ notification: Notification){
+        
+        print("onMessageDataReceived")
+        if let data = notification.userInfo as? [String: String]
+        {
+            for(tag, msg) in data
+            {
+                if(tag == "msgData")
+                {
+                    // update UI with Message From Platform
+                    print(msg)
+                    lblLastRcvd.text = msg
+                    
+                }
+            }
+        }
+        
+    }
     
     /// Called when the start button is clicked on the UI. Starts sending messages.
     ///
     /// - parameter sender: The clicked button
-    @IBAction func connectCient(sender: UIButton!) {
+    @IBAction func connectClient(sender: UIButton!) {
         
         // Dialog box to show action received
         btnConnect.isEnabled = false

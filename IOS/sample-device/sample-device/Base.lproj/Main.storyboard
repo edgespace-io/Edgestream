@@ -87,7 +87,7 @@
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <state key="normal" title="Connect"/>
                                 <connections>
-                                    <action selector="connectCientWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6z8-3E-tFG"/>
+                                    <action selector="connectClientWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UyJ-Ve-hGo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtJ-qX-lgf">
