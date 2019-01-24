@@ -1,6 +1,6 @@
 # IOS SDK for Edgestream
 
-![Current State: Preview Release](https://img.shields.io/badge/Current_State-Preview_Release-brightgreen.svg) 
+![Current State: Preview Release](https://img.shields.io/badge/Release-v1-green.svg) 
 
 # EdgestreamSDK-Release
 

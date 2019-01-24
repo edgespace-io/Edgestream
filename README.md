@@ -7,13 +7,13 @@ _**This project is in active development and will change.**_
 # SDKs
 
 ### [Android](Android)
-![Current State: Preview Release](https://img.shields.io/badge/Current_State-Preview_Release-brightgreen.svg)
+![Current State: Preview Release](https://img.shields.io/badge/Release-v1-green.svg)
 
 The Android SDK is for interfacing with the Edgestream platform for sending telemetry and custom data for processing and storage.
 
 
 ### [IOS](IOS)
-![Current State: Preview Release](https://img.shields.io/badge/Current_State-Preview_Release-brightgreen.svg)
+![Current State: Preview Release](https://img.shields.io/badge/Release-v1-green.svg)
 
 The IOS SDK is for interfacing with the Edgestream platform for sending telemetry and custom data for processing and storage.
 
