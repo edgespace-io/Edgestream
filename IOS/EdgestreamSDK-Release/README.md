@@ -1,6 +1,6 @@
 # EdgestreamSDK Binary Release
 
-![Current State: Preview Release](https://img.shields.io/badge/Current_State-Preview_Release-brightgreen.svg) 
+![Current State: Preview Release](https://img.shields.io/badge/Release-v1-green.svg) 
 
 ---
 
@@ -18,9 +18,9 @@ This is currently the preview release for the EdgestreamSDK Binary Release.
 Prior to starting development using the Edgestream SDK please ensure that you have the Xcode IDE installed on your local development machine.  The Latest Xcode release can be found [here](https://developer.apple.com/xcode/).
 
 ### Add SDK to a newly created project or existing project in Xcode as embedded framework
-1. [Download](https://github.com/edgespace-io/Edgestream/blob/master/IOS/EdgestreamSDK-Release/edgestreamSDK-Release.tar) edgestreamSDK-Release.tar for IOS and extract the Edgestream framework to the desktop using the tar command 
+1. [Download](https://github.com/edgespace-io/Edgestream/blob/master/IOS/EdgestreamSDK-Release/edgestreamSDK-Release-v1.tar) edgestreamSDK-Release.tar for IOS and extract the Edgestream framework to the desktop using the tar command 
 ```bash
-tar xvf edgestreamSDK-Release.tar ~/Desktop/
+tar xvf edgestreamSDK-Release-v1.tar ~/Desktop/
 ```
 
 2. [Open or Create](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/BuildABasicUI.html#//apple_ref/doc/uid/TP40015214-CH5-SW3) a new project in Xcode
