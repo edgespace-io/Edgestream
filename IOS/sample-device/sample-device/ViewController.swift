@@ -42,6 +42,9 @@ class ViewController: UIViewController {
     let _demoKey:String = "JLRYm8h68K5oNw4QnzA4QHIjYEA7hQNe2jEQJJf3t81/UdyaCSaRyqasFKtzJJK/+8snZKdMU/PJFt979vZG7M/srwRyEHa5yFKtJQrJ1d6cjWwFUtf4QMvRmJn6PJTWXntqAzDmg6TYYcfOtCPbXzW4KvACzFEJYFwV1S81HQY="
     
     let _demoToken:String = "yJWwbJJHgqOqJqGak+OePvFMquWvgOD7GmE29aPqAexvarUTbxpLSlwgtzDyfOEyrU+2YNj2CT8PXcaZK79uqvmkjQzjm12ggcfbyk6i8fW98WKMLQdSCgElKYB7vD9I75uWIMNRBNYgy2LFx43xgImIj5+EjU8PQOdakLw/x066nj5L3EQaT9ebTIMnD2piJ5ObW9kWUYHofxrIO8Ls0Vbj1R5jdXbkza2Oe2Y/HsmGIqdZ6mcRFg84mRmnhTxRR6xRntAu/CquOIEVDWIJU+BzzED4LhHfdBEYfluwCdgZ0SY5vCdOsbW5kv3BExXv6sxOthqSoIoEiJb/T0fynn6yudcjLQ7P9k+ffneEukMyIVpOFFJL3ZUuwf0W3vy8pwwlGy9MGdPHeCdvY07UGA=="
+ /*
+     let _demoToken:String = "yJWwbJJHgqOqJqGak+OePvFMquWvgOD7GmE29aPqAexvarUTbxpLSlwgtzDyfOEyrU+2YNj2CT8PXcaZK79uql4OEbhjqeOQEkzX1jz/GkMed1JB5qsXWFuD7kFKsyFkgwm0Wm2bwpA3S7tKGjmZLk2oJ6UVmUp/fusOz4iDimK9m2mWfjxUwqXKk9Yn2V9WxTD5q+CKbRrUW9IujAZE9x1ZDDKFbPqkzeglnmwF1rrRSusFK+BBXmQISj5q4/nEm9CffVsIUCJb8bxuHToS0Co77srKQm8WbWBHBlvMHgtq1WIYaLGxoOlSsxbfhlPs5GWGW+YLjkcK+2A349PylX6vUlRAS5lPkcz+Kigeyx4=="
+     */
     
     // Edgestream Client instance
     let _client:EdgestreamClient
