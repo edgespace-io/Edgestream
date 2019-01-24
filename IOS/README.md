@@ -118,6 +118,25 @@ extension Notification.Name{
 // declare the notificationCenter and use default 
 private let notificationCenter:NotificationCenter = .default
 
+// handler function to handle the notification and the data
+@objc func onMessageDataReceived(_ notification: Notification){
+        
+    print("onMessageDataReceived")
+    if let data = notification.userInfo as? [String: String]
+    {
+        for(tag, msg) in data
+        {
+            if(tag == "msgData")
+            {
+                // print received data
+                print(msg)
+                
+            }
+        }
+    }
+        
+}
+
 // add the observer
 notificationCenter.addObserver(self,
         selector: #selector(onMessageDataReceived(_:)),

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements EdgestreamMessage
      *
      * */
     private static String demoKey = "JLRYm8h68K5oNw4QnzA4QHIjYEA7hQNe2jEQJJf3t81/UdyaCSaRyqasFKtzJJK/+8snZKdMU/PJFt979vZG7M/srwRyEHa5yFKtJQrJ1d6cjWwFUtf4QMvRmJn6PJTWXntqAzDmg6TYYcfOtCPbXzW4KvACzFEJYFwV1S81HQY=";
-    private static String demoToken = "yJWwbJJHgqOqJqGak+OePvFMquWvgOD7GmE29aPqAexvarUTbxpLSlwgtzDyfOEyrU+2YNj2CT8PXcaZK79uqj+b8xCPyG3QfDBzztsTaypzaSKZUmi7lGfV40LIg8EY9qVSkp19s4kQCA3jscWOPnpWCjjBuqYXhIz369jdnB+k2w3yzEdydujWYuswczoMoqPDsXqAWE5PFzILNKHWlfHArkP6R/ItRrlcGHqSJWP8Ekzxo2H96gRCqnPtElqY1SOzQBf6mcPJ09KwViveuxKDCxx+krEuJnyOEkoiX+Xb7BFb+e//zSazA7gbU24wRCQpdgb2wqycUOkXHL8D+UuVOTxCDiWpvmDQFHrdM85My3dsFKf05HWLGKBqjZ7mS3sNldFlk0emK6SPGei5Qg==";
+    private static String demoToken = "yJWwbJJHgqOqJqGak+OePvFMquWvgOD7GmE29aPqAexvarUTbxpLSlwgtzDyfOEyrU+2YNj2CT8PXcaZK79uql4OEbhjqeOQEkzX1jz/GkNnzQR/p0DSQnELkWumXusFo9bLdeKlOuaOkDo1mAHCrbJkWbaqyCmrT5U+k9a9ekB8LPdRdQhzkOGOlHh2fpFz/H9+ot0s+hwrhO7Loaa2FKInDhZkPh9ArtKh3GaWQC4JkNz5v5FCx1L9MswnHBLJOzD6Avs6YFKbf99GqQ1lRcLnlvR7GnT1dTwJXtV8FUky4IP7LWnlU7nGsYwOy6BdKxG+j9C/0R7aQw/KBqxn3hD8aPsRrxcZM0bsrymr37o=";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

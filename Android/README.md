@@ -4,7 +4,7 @@
 
 # EdgestreamSDK-Release
 
-This is the binary release of the Edgestream SDK library as an aar package that can be added to your own application. refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
+This is the binary v1 Release of the Edgestream SDK library for Android, which is distributed as an aar package that can be added to your own application. Refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
 
 # Samples
 
@@ -23,6 +23,8 @@ Before making calls to SendData, you'll need to configure the Android client wit
 | **[Connection](#connection)**                         | [Connect](#connect)                                   |
 | **[Connection](#connection)**                         | [Disconnect](#disconnect)                             |
 | **[Data](#data)**                                     | [Send](#send)                                         |
+| **[Notifications](#notifications)**                   | [edgeEventCallback](#event)                           |
+| **[Notifications](#notifications)**                   | [sendMessageReceiptConfirmations](#confirm)           |
 
 
 
@@ -99,3 +101,45 @@ Send telemetry data tagged with location data from the device to the Edgestream 
 _client.sendData(json, location);
 
 ```
+
+## Notifications
+
+Manage notifications from the EdgestreamSDK client for Cloud to Device Messages and Receipt of Device to Cloud Messaging.
+Developer must implement the EdgestreamMessageEventCallback interface to receive notifications from the Edgestream Client.
+
+In the sample application we implement the interface on our main activity class as below
+
+```java
+
+public class MainActivity extends AppCompatActivity implements EdgestreamMessageEventCallback {
+
+```
+
+### Event
+
+Receive Cloud to Device messages occur in the edgeEventCallback funtion of the EdgestreamMessageEventCallback interface.
+Data is received as a byte array string for processing by the application and is application specific.
+
+```java
+    // Edgestream Client Callbacks
+    @Override
+    public void edgeEventCallback(final byte[] message) {
+        // callback sends a byte array string containing the data
+    }
+
+```
+
+### Confirmation
+
+Send message confirmations from the EdgestreamSDK client are received in the sendMessageReceiptConfirmations call of the
+EdgestreamMessageEventCallback interface.  Count is the total number of message receipts acknowledged by the platform.
+
+```java
+    // Edgestream Client Callbacks
+    @Override
+    public void sendMessageReceiptConfirmations(final int count) {
+        // callback sends the number of confirmations
+    }
+
+```
+
