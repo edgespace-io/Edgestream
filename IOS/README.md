@@ -4,7 +4,7 @@
 
 # EdgestreamSDK-Release
 
-This is the binary release of the Edgestream SDK library as a framework package that can be added to your own application. refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
+This is the binary release of the Edgestream SDK library as a framework package that can be added to your own application. refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder. Version 1 Release brings notifications from the EdgestremSDK client.  Currently supported notifications are Cloud to Device Messages.  Implementation of Cloud to Device Messaging has been included in the Sample Device.
 
 # Sample-Device
 
@@ -23,13 +23,14 @@ Before making calls to SendData, you'll need to configure the IOS client with th
 | **[Connection](#connection)**                         | [Connect](#connect)                                   |
 | **[Connection](#connection)**                         | [Disconnect](#disconnect)                             |
 | **[Data](#data)**                                     | [Send](#send)                                         |
+| **[Receive Data](#receive)**                          | [Receive](#receivedata)                               |
 
 
 
 ## Edgestream Client
 
 #### Create
-```java
+```swift
 // create new EdgestreamClient object passing in the application context as a parameter 
 // this should be performed early in startup of application
 // returns a valid object on success
@@ -42,7 +43,7 @@ _client = EdgestreamClient()
 Configuration data is required only one time and will be stored by the SDK, if the device is to be re-purposed the token can be set again
 
 #### Token
-```java
+```swift
 // set the token via the client using the key and message received from add device 
 // returns true on successful configuration
 _client.setToken(key: key, deviceToken: token)
@@ -57,7 +58,7 @@ A connection to the platform must be established prior to sending data to the pl
 
 Establishes the connection from the device to the Edgestream platform.
 
-```java
+```swift
 // connect to platform prior to sending data returns true on successful connection
 // returns true on successful connection
 _client.iotConnect()
@@ -69,7 +70,7 @@ _client.iotConnect()
 Removes the connection from the device to the Edgestream platform.
 
 
-```java
+```swift
 // disconnect from the platform prior to exiting your application
 // returns true on successful disconnect
 _client.iotDisconnect()
@@ -84,7 +85,7 @@ Manage data from device to the cloud and from the cloud to the device.
 
 Send telemetry data from device to Edgestream platform.
 
-```java
+```swift
 // send data to the Edgestream platform for storage and processing
 // returns true on successful send command
 _client.sendData(dictString: data)
@@ -93,9 +94,35 @@ _client.sendData(dictString: data)
 
 Send telemetry data tagged with location data from the device to the Edgestream platform.
 
-```java
+```swift
 // send data tagged with location data to the Edgestream platform for storage and processing
 // returns true on successful send command
 _client.sendData(dictString: data, location:CLLocation)
+
+```
+
+## Receive
+
+Manage data from device to the cloud and from the cloud to the device.
+
+### Receive Data
+
+Register for the notification requires adding the notification name, creating the notificationCenter and adding an observer
+
+```swift
+// define the notification name that we will be listening for
+extension Notification.Name{
+    static let messageDataReceived = Notification.Name("messageDataReceived")
+}
+
+// declare the notificationCenter and use default 
+private let notificationCenter:NotificationCenter = .default
+
+// add the observer
+notificationCenter.addObserver(self,
+        selector: #selector(onMessageDataReceived(_:)),
+        name: .messageDataReceived,
+        object: nil
+    )
 
 ```
