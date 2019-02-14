@@ -176,6 +176,15 @@ Add Tools to manifest tag
 
 ```
 
+Add additional permissions to your manifest file
+
+```java
+
+<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+```
+
 Add icon replace with your icon in Manifest in Application Tag
 
 ```java
@@ -184,7 +193,7 @@ Add icon replace with your icon in Manifest in Application Tag
 
 ```
 
-Add Services and Receivers to Application tag after your activity
+Add Services and Receivers to Application tag after your activity and substitute your package name for the category tag
 
 ```java
 
@@ -203,7 +212,7 @@ Add Services and Receivers to Application tag after your activity
             android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="com.edgestream.notifications.getstartednh" />
+                <category android:name="<your package name>" />
             </intent-filter>
         </receiver>
 
