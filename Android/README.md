@@ -215,7 +215,7 @@ Add libraries to your App build.gradle file
 ```java
 
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
-    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.microsoft.azure:notification-hubs-android-sdk:0.4@aar'
     implementation 'com.microsoft.azure:azure-notifications-handler:1.0.1@aar'
     implementation 'com.google.android.gms:play-services-gcm:16.0.0'
 
