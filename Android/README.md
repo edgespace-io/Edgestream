@@ -153,8 +153,9 @@ Notifications will be sent to the device once registered whether or not the devi
 ### registerNotifications
 To receive notifiations you must add a few configuration items to your project and register your package name with the platform
 
-Register your package name by 
-
+NOTE: Application Platform Registration is migrating to an API but is currently a manual process
+Register your package name by senging your package name to george.vigelette@edgespace.com you will receive a configuration file 
+in return once your application is registered with the platform (google-services.json).  
 
 After registering your application you will receive json configuration data that you must put in a file called google-services.json
 and the file must reside in your app directory
