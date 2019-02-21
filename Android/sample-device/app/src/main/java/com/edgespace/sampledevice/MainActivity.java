@@ -7,14 +7,10 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.microsoft.windowsazure.notifications.NotificationsManager;
-
 import org.json.JSONObject;
 
 import io.edgestream.edgesdk.EdgestreamClient;
-import io.edgestream.edgesdk.EdgestreamHandler;
 import io.edgestream.edgesdk.EdgestreamMessageEventCallback;
-import io.edgestream.edgesdk.EdgestreamNotificationSettings;
 
 
 public class MainActivity extends AppCompatActivity implements EdgestreamMessageEventCallback {
@@ -52,15 +48,12 @@ public class MainActivity extends AppCompatActivity implements EdgestreamMessage
         lastMessageReceived = findViewById(R.id.lastMessageReceived);
 
         try {
-            _client = new EdgestreamClient(this.getApplicationContext());
+            _client = new EdgestreamClient(this);
             _client.RegisterEdgestreamMessageEventCallback(this);
             Log.d(TAG, "Event Message Callback Registered: " + _client.isEdgestreamMessageEventCallbackRegistered());
             if(!_client.isRegistered()) {
                 _client.setToken(demoKey, demoToken);
             }
-
-            NotificationsManager.handleNotifications(this, EdgestreamNotificationSettings.SenderId, EdgestreamHandler.class);
-            _client.registerWithNotificationHubs(this);
 
         }catch(Exception ex){
             Log.e(TAG, ex.getMessage());
