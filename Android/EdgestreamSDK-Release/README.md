@@ -1,6 +1,6 @@
 # EdgestreamSDK Binary Release
 
-![Current State: Preview Release](https://img.shields.io/badge/Release-v1-green.svg) 
+![Current State: Preview Release](https://img.shields.io/badge/Release-v1.2-green.svg) 
 
 ---
 
@@ -15,7 +15,7 @@
 [image6]: ./docs/add_module.png "Add Module"
 [image7]: ./docs/import_namespace.png "Import Namespace"
 
-This is Release v1.1 for the EdgestreamSDK Binary for Android. 
+This is Release v1.2 for the EdgestreamSDK Binary for Android. 
 
 ## Getting Started Guide
 Prior to starting development using the Edgestream SDK please ensure that you have the Android Studio IDE installed on your local development workstation.  The Latest Android Studio release can be found [here](https://developer.android.com/studio/).
@@ -34,7 +34,7 @@ Prior to starting development using the Edgestream SDK please ensure that you ha
 
 ![alt text][image3]
 
-5. browse to the EdgestreamSDK-v1.1-release.aar binary and select it
+5. browse to the EdgestreamSDK-v1.2-release.aar binary and select it
 
 ![alt text][image4]
 
