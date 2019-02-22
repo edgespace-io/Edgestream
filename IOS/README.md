@@ -158,6 +158,7 @@ for how to configure your application.
 ### configuration
 To receive notifiations you must add a few configuration items to your project and register your package name with the platform
 
-NOTE: Application Platform Registration is migrating to an API but is currently a manual process
-Register your package name by senging your package name to george.vigelette@edgespace.com you will receive a configuration file 
-in return once your application is registered with the platform (GoogleService-Info.plist).  
+NOTE: Application Platform Registration is migrating to an API but is currently a manual process Register your IOS Bundle ID with 
+the platform by sending your IOS Bundle ID to [george.vigelette@edgespace.com](mailto:george.vigelette@edgespace.com) along with your Application Nickname and App Store ID which are both optional.  Once the applicaiton is registered with the platform you will receive a configuration file [GoogleService-Info.plist](sample-device/sample-device/GoogleService-Info.plist).  
+
+NOTE: IOS Applications will not receive any notifications until cloud messaging is also enabled on the platform. In order to enable Cloud Messaging you must provide an APNs authentication key or APNs certificate to connect with APNs. These are generated from your Apple development portal [Configuring APNs](APN.md).

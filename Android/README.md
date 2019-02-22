@@ -155,9 +155,7 @@ for how to configure your application.
 ### setup
 To receive notifiations you must add a few configuration items to your project and register your package name with the platform
 
-NOTE: Application Platform Registration is migrating to an API but is currently a manual process
-Register your package name by senging your package name to george.vigelette@edgespace.com you will receive a configuration file 
-in return once your application is registered with the platform (google-services.json).  
+NOTE: Application Platform Registration is migrating to an API but is currently a manual process Register your package name by sending your package name to [george.vigelette@edgespace.com](mailto:george.vigelette@edgespace.com) along with your Application nickname which is optional. Once registered with the platform you will receive a configuration file [google-services.json](sample-device/app/google-services.json).  
 
 After registering your application you will receive a configuration file google-services.json that must be added to the app 
 directory [app](sample-device/app/) of your application.
