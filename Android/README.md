@@ -25,7 +25,7 @@ Before making calls to SendData, you'll need to configure the Android client wit
 | **[Data](#data)**                                     | [Send](#send)                                         |
 | **[Cloud2Device](#Cloud2Device)**                     | [edgeEventCallback](#event)                           |
 | **[Cloud2Device](#Cloud2Device)**                     | [sendMessageReceiptConfirmations](#confirm)           |
-| **[Notifications](#Notifications)**                   | [AppConfiguration](#configuration)                    |            
+| **[Notifications](#Notifications)**                   | [AppConfiguration](#setup)                            |            
 
 
 
@@ -152,7 +152,7 @@ their application to receive notifications.  Notifications will be sent to the d
 configured whether or not the application is running or in the background. Please reference the [sample-device](sample-device/) applicaation
 for how to configure your application.
 
-### configuration
+### setup
 To receive notifiations you must add a few configuration items to your project and register your package name with the platform
 
 NOTE: Application Platform Registration is migrating to an API but is currently a manual process
@@ -160,7 +160,7 @@ Register your package name by senging your package name to george.vigelette@edge
 in return once your application is registered with the platform (google-services.json).  
 
 After registering your application you will receive a configuration file google-services.json that must be added to the app 
-directory of your application.
+directory [app](sample-device/app/) of your application.
 
 ```java
 
@@ -168,7 +168,7 @@ app/google-services.json
 
 ```
 
-Modify your Application manifest file to receive notificaitons.  
+Modify your Application [manifest](sample-device/app/src/main/AndroidManifest.xml) file to receive notificaitons.  
 
 Add Tools to manifest tag
 
@@ -182,8 +182,8 @@ Add additional permissions to your manifest file
 
 ```java
 
+<uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
 ```
 
@@ -199,41 +199,33 @@ Add Services and Receivers to Application tag after your activity and substitute
 
 ```java
 
-        <service android:name="io.edgestream.edgesdk.EdgestreamInstanceIDService">
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_edgespace_logo" />
+
+         <service android:name="io.edgestream.edgesdk.EdgestreamMessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
-        </service>
-
-        <service
-            android:name="io.edgestream.edgesdk.RegistrationIntentService"
-            android:exported="false">
-        </service>
-
-        <receiver android:name="com.microsoft.windowsazure.notifications.NotificationsBroadcastReceiver"
-            android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="<your package name>" />
-            </intent-filter>
-        </receiver>
-
-        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        </service>       
 
 ```
 
-Add libraries to your App build.gradle file
+Add libraries to your App [build.gradle](sample-device/app/build.gradle) file
 
 ```java
 
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
-    implementation 'com.microsoft.azure:notification-hubs-android-sdk:0.4@aar'
-    implementation 'com.microsoft.azure:azure-notifications-handler:1.0.1@aar'
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation 'com.google.android.gms:play-services-gcm:16.0.0'
 
 ```
 
-Add plugin to your App build.gradle after the dependencies section
+Add plugin to your App [build.gradle](sample-device/app/build.gradle) after the dependencies section
 
 ```java
 
@@ -242,7 +234,7 @@ Add plugin to your App build.gradle after the dependencies section
 ```
 
 
-Add classpath to dependencies of project build.gradle
+Add classpath to dependencies of project [build.gradle](sample-device/build.gradle)
 
 ```java
 
@@ -250,14 +242,4 @@ Add classpath to dependencies of project build.gradle
 
 ```
 
-In the onCreate or onStart method Register the EdgestreamHandler with the notification manager adn use the _client to register for 
-notifications with the platform notification HUB as shown below.
-
-```java
-
-    // Register for Notifications
-
-    NotificationsManager.handleNotifications(this, EdgestreamNotificationSettings.SenderId, EdgestreamHandler.class);
-    _client.registerWithNotificationHubs(this);
-
-```
+Your application is now configured for Notifications from the platform.

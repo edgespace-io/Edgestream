@@ -24,7 +24,7 @@ Before making calls to SendData, you'll need to configure the IOS client with th
 | **[Connection](#connection)**                         | [Disconnect](#disconnect)                             |
 | **[Data](#data)**                                     | [Send](#send)                                         |
 | **[Receive Data](#receive)**                          | [Receive](#receivedata)                               |
-| **[Notifications](#Notifications)**                   |                                                       |            
+| **[Notifications](#Notifications)**                   | [AppConfiguration](#setup)                            |            
 
 
 
@@ -151,7 +151,9 @@ notificationCenter.addObserver(self,
 
 Manage Platform Notifications to be sent to the device running the EdgestreamSDK client.  Developer must configure their
 their application to receive notifications.  Notifications will be sent to the device once the application has been 
-configured whether or not the application is running or in the background.
+configured whether or not the application is running or in the background. Please reference the [sample-device](sample-device/) applicaation
+for how to configure your application.
+
 
 ### configuration
 To receive notifiations you must add a few configuration items to your project and register your package name with the platform
