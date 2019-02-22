@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>282217005466-dv03bdtqv6ukt3v9i01sd65s0fb7gh23.apps.googleusercontent.com</string>
+	<string>346031762989-32u1moldlnvnqiklvrrr77iiiq29kfu2.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.282217005466-dv03bdtqv6ukt3v9i01sd65s0fb7gh23</string>
+	<string>com.googleusercontent.apps.346031762989-32u1moldlnvnqiklvrrr77iiiq29kfu2</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBs8IrBWAKtPiL4wjx95Vn5jxW7n-UeCzk</string>
+	<string>AIzaSyB9qL5_IUnwxb2Th5Xt30OMdUjbsIlUSyo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>282217005466</string>
+	<string>346031762989</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>io.edgestream.sample-device</string>
 	<key>PROJECT_ID</key>
-	<string>notify-71f0d</string>
+	<string>edgestream-platform</string>
 	<key>STORAGE_BUCKET</key>
-	<string>notify-71f0d.appspot.com</string>
+	<string>edgestream-platform.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:282217005466:ios:bffba859a660edad</string>
+	<string>1:346031762989:ios:bffba859a660edad</string>
 	<key>DATABASE_URL</key>
-	<string>https://notify-71f0d.firebaseio.com</string>
+	<string>https://edgestream-platform.firebaseio.com</string>
 </dict>
 </plist>
