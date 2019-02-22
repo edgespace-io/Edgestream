@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48030D8B221DB31600D3AB93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48030D8A221DB31500D3AB93 /* GoogleService-Info.plist */; };
 		48B99CC921FA263800FCEB54 /* edgesdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B99CC821FA263800FCEB54 /* edgesdk.framework */; };
 		48B99CCA21FA263800FCEB54 /* edgesdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48B99CC821FA263800FCEB54 /* edgesdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		48E12A0621BE26AF000503AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E12A0521BE26AF000503AC /* AppDelegate.swift */; };
@@ -35,6 +36,8 @@
 		15CA115A817183709110F62B /* Pods-sample-device.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-device.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-device/Pods-sample-device.debug.xcconfig"; sourceTree = "<group>"; };
 		1621760DF184A1F0399222C2 /* Pods-sample-device.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-device.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-device/Pods-sample-device.release.xcconfig"; sourceTree = "<group>"; };
 		16BA1B28C0FB3CC8B6F9EBE7 /* Pods_sample_device.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_device.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48030D8A221DB31500D3AB93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48030D8C221DCA0B00D3AB93 /* sample-device.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sample-device.entitlements"; sourceTree = "<group>"; };
 		48B99CC821FA263800FCEB54 /* edgesdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = edgesdk.framework; sourceTree = "<group>"; };
 		48E12A0221BE26AF000503AC /* sample-device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E12A0521BE26AF000503AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 		48E12A0421BE26AF000503AC /* sample-device */ = {
 			isa = PBXGroup;
 			children = (
+				48030D8A221DB31500D3AB93 /* GoogleService-Info.plist */,
+				48030D8C221DCA0B00D3AB93 /* sample-device.entitlements */,
 				48E12A0521BE26AF000503AC /* AppDelegate.swift */,
 				48E12A0721BE26AF000503AC /* ViewController.swift */,
 				48E12A0921BE26AF000503AC /* Main.storyboard */,
@@ -142,6 +147,14 @@
 				TargetAttributes = {
 					48E12A0121BE26AF000503AC = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -169,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48E12A1021BE26AF000503AC /* LaunchScreen.storyboard in Resources */,
+				48030D8B221DB31600D3AB93 /* GoogleService-Info.plist in Resources */,
 				48E12A0D21BE26AF000503AC /* Assets.xcassets in Resources */,
 				48E12A0B21BE26AF000503AC /* Main.storyboard in Resources */,
 			);
@@ -191,7 +205,10 @@
 				"${BUILT_PRODUCTS_DIR}/AzureIoTuAmqp/AzureIoTuAmqp.framework",
 				"${BUILT_PRODUCTS_DIR}/AzureIoTuMqtt/AzureIoTuMqtt.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyRSA/SwiftyRSA.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -202,7 +219,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTuAmqp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AzureIoTuMqtt.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyRSA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -386,6 +406,7 @@
 			baseConfigurationReference = 15CA115A817183709110F62B /* Pods-sample-device.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "sample-device/sample-device.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74U4A6W944;
 				ENABLE_BITCODE = NO;
@@ -411,6 +432,7 @@
 			baseConfigurationReference = 1621760DF184A1F0399222C2 /* Pods-sample-device.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "sample-device/sample-device.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74U4A6W944;
 				ENABLE_BITCODE = NO;

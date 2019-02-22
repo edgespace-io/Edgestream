@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        if #available(iOS 10.0, *) {
+            // For iOS 10 display notification (sent via APNS)
+            let center = UNUserNotificationCenter.current()
+            
+            let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+            center.requestAuthorization(
+                options: authOptions,
+                completionHandler: {_, _ in })
+        } else {
+            let settings: UIUserNotificationSettings =
+                UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
+            application.registerUserNotificationSettings(settings)
+        }
+        
+        application.registerForRemoteNotifications()
+        
+        Messaging.messaging().subscribe(toTopic: "Notifications"){ error in
+            print("Subscribed to Platform Notifications")
+        }
+        
         return true
     }
 
@@ -40,7 +64,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
-}
-
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any],
+                     fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        
+        print("Data From Service")
+        print(userInfo)
+        
+        // Parse Example
+        if let aps = userInfo["aps"] as? NSDictionary {
+            if let alert = aps["alert"] as? NSDictionary {
+                if let title = alert["title"] as? String {
+                    print("Title: " + title)
+                }
+                
+                if let msg = alert["body"] as? String {
+                    print("Message: " + msg)
+                }
+            }
+        }
+        
+        completionHandler(UIBackgroundFetchResult.newData)
+    }}

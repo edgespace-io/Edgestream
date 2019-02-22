@@ -9,6 +9,7 @@
 import UIKit
 import edgesdk
 import Foundation
+import Firebase
 
 extension Notification.Name{
     static let messageDataReceived = Notification.Name("messageDataReceived")
@@ -66,6 +67,7 @@ class ViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         print("init coder style")
         super.init(coder: aDecoder)
+                
         if((_client.isRegistered)){
             print("registered")
         }else{
@@ -78,6 +80,7 @@ class ViewController: UIViewController {
                 print("Set token")
             }
         }
+        
     }
     
     override func viewDidLoad() {

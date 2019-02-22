@@ -14,5 +14,8 @@ target 'sample-device' do
   pod 'AzureIoTuAmqp', '~>1.2'
   pod 'SwiftyRSA', '~>1.5'
   pod 'CryptoSwift', '~>0.12'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+
 
 end
