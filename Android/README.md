@@ -1,10 +1,10 @@
 # Android SDK for Edgestream
 
-![Current State: Preview Release](https://img.shields.io/badge/Release-v1.1-green.svg) 
+![Current State: Preview Release](https://img.shields.io/badge/Release-v1.2-green.svg) 
 
 # EdgestreamSDK-Release
 
-This is the binary v1.1 Release of the Edgestream SDK library for Android, which is distributed as an aar package that can be added to your own application. Refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
+This is the binary v1.2 Release of the Edgestream SDK library for Android, which is distributed as an aar package that can be added to your own application. Refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
 
 # Samples
 
@@ -25,7 +25,7 @@ Before making calls to SendData, you'll need to configure the Android client wit
 | **[Data](#data)**                                     | [Send](#send)                                         |
 | **[Cloud2Device](#Cloud2Device)**                     | [edgeEventCallback](#event)                           |
 | **[Cloud2Device](#Cloud2Device)**                     | [sendMessageReceiptConfirmations](#confirm)           |
-| **[Notifications](#Notifications)**                   | [registerWithNotificationHubs](#registerNotifications)|            |
+| **[Notifications](#Notifications)**                   | [AppConfiguration](#configuration)                    |            
 
 
 
@@ -147,18 +147,20 @@ EdgestreamMessageEventCallback interface.  Count is the total number of message 
 
 ## Notifications
 
-Manage Platform Notifications to be sent to the device running the EdgestreamSDK client.  Developer must register for Notifications.
-Notifications will be sent to the device once registered whether or not the device is active
+Manage Platform Notifications to be sent to the device running the EdgestreamSDK client.  Developer must configure their
+their application to receive notifications.  Notifications will be sent to the device once the application has been 
+configured whether or not the application is running or in the background. Please reference the [sample-device](sample-device/) applicaation
+for how to configure your application.
 
-### registerNotifications
+### configuration
 To receive notifiations you must add a few configuration items to your project and register your package name with the platform
 
 NOTE: Application Platform Registration is migrating to an API but is currently a manual process
 Register your package name by senging your package name to george.vigelette@edgespace.com you will receive a configuration file 
 in return once your application is registered with the platform (google-services.json).  
 
-After registering your application you will receive json configuration data that you must put in a file called google-services.json
-and the file must reside in your app directory
+After registering your application you will receive a configuration file google-services.json that must be added to the app 
+directory of your application.
 
 ```java
 
