@@ -8,7 +8,7 @@
 [image3]: ./docs/08011a6-api3.png "Add key Name and Select APNs"
 [image4]: ./docs/d707f9d-api4.png "Hit Continue"
 [image5]: ./docs/b3a6b0e-api5.png "Download Auth Key File"
-[image5]: ./docs/0d2a17a-api6.png "Locate Team ID"
+[image6]: ./docs/0d2a17a-api6.png "Locate Team ID"
 
 Cloud Messaging APNs interface uses the Apple Push Notification service (APNs) to send messages up to 4KB in size to your iOS app, including when it is in the background.
 
