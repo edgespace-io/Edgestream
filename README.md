@@ -7,7 +7,7 @@ _**This project is in active development and will change.**_
 # SDKs
 
 ### [Android](Android)
-![Current State: Preview Release](https://img.shields.io/badge/Release-v1.2-green.svg)
+![Current State: Preview Release](https://img.shields.io/badge/Release-v1.3-green.svg)
 
 The Android SDK is for interfacing with the Edgestream platform for sending telemetry and custom data for processing and storage.
 

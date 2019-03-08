@@ -41,7 +41,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.7'
     implementation 'com.google.firebase:firebase-messaging:17.3.4'
     implementation 'com.google.android.gms:play-services-gcm:16.0.0'
-    implementation project(':EdgestreamSDK-v1.2-release')
+    implementation project(':EdgestreamSDK-v1.3-release')
 }
 
 apply plugin: 'com.google.gms.google-services'
