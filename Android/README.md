@@ -1,10 +1,10 @@
 # Android SDK for Edgestream
 
-![Current State: Preview Release](https://img.shields.io/badge/Release-v1.2-green.svg) 
+![Current State: Preview Release](https://img.shields.io/badge/Release-v1.3-green.svg) 
 
 # EdgestreamSDK-Release
 
-This is the binary v1.2 Release of the Edgestream SDK library for Android, which is distributed as an aar package that can be added to your own application. Refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
+This is the binary v1.3 Release of the Edgestream SDK library for Android, which is distributed as an aar package that can be added to your own application. Refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder.
 
 # Samples
 
