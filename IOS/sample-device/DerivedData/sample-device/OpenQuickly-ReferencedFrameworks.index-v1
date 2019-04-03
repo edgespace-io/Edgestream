@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>GoogleMobileAds</string>
+	<string>Darwin</string>
+	<string>FirebasePerformance</string>
+	<string>CommonCrypto</string>
+	<string>FirebaseDynamicLinks</string>
+	<string>objc</string>
+	<string>FirebaseAuth</string>
+	<string>GoogleUtilities</string>
+	<string>Firebase</string>
+	<string>FirebaseInAppMessaging</string>
+	<string>FirebaseCore</string>
+	<string>FirebaseMessaging</string>
+	<string>Protobuf</string>
+	<string>CoreFoundation</string>
+	<string>sys</string>
+	<string>UserNotifications</string>
+	<string>FirebaseInstanceID</string>
+	<string>FirebaseMLVisionFaceModel</string>
+	<string>FirebaseMLVisionLabelModel</string>
+	<string>FirebaseFirestore</string>
+	<string>FirebaseDatabase</string>
+	<string>Glibc</string>
+	<string>libkern</string>
+	<string>FirebaseRemoteConfig</string>
+	<string>FirebaseAnalyticsInterop</string>
+	<string>Crashlytics</string>
+	<string>FirebaseMLVision</string>
+	<string>SwiftyRSA</string>
+	<string>FirebaseMLVisionBarcodeModel</string>
+	<string>FirebaseMLVisionTextModel</string>
+	<string>Foundation</string>
+	<string>mach</string>
+	<string>Security</string>
+	<string>Fabric</string>
+	<string>FirebaseMLModelInterpreter</string>
+	<string>FirebaseCrash</string>
+	<string>FirebaseInvites</string>
+	<string>FirebaseStorage</string>
+	<string>SystemConfiguration</string>
+	<string>FirebaseFunctions</string>
+	<string>FirebaseAnalytics</string>
+	<string>edgesdk</string>
+	<string>UIKit</string>
+</array>
+</plist>

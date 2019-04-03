@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1ADEBAF4-2ADD-46BD-ABE6-27E48E16C319</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1ADEBAF4-2ADD-46BD-ABE6-27E48E16C319.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>sample-device project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sample-device</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build sample-device</string>
+			<key>timeStartedRecording</key>
+			<real>576001803.70418406</real>
+			<key>timeStoppedRecording</key>
+			<real>576001804.68868506</real>
+			<key>title</key>
+			<string>Build sample-device</string>
+			<key>uniqueIdentifier</key>
+			<string>1ADEBAF4-2ADD-46BD-ABE6-27E48E16C319</string>
+		</dict>
+		<key>44F6374A-CEB4-452F-B4F5-28C395876E0D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>44F6374A-CEB4-452F-B4F5-28C395876E0D.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>sample-device project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sample-device</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean sample-device</string>
+			<key>timeStartedRecording</key>
+			<real>576005364.38505602</real>
+			<key>timeStoppedRecording</key>
+			<real>576005368.66778505</real>
+			<key>title</key>
+			<string>Clean sample-device</string>
+			<key>uniqueIdentifier</key>
+			<string>44F6374A-CEB4-452F-B4F5-28C395876E0D</string>
+		</dict>
+		<key>A1B824B3-7748-49EF-91AA-D2201F6C33F8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A1B824B3-7748-49EF-91AA-D2201F6C33F8.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>sample-device project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sample-device</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build sample-device</string>
+			<key>timeStartedRecording</key>
+			<real>576005372.29514694</real>
+			<key>timeStoppedRecording</key>
+			<real>576005471.90555894</real>
+			<key>title</key>
+			<string>Build sample-device</string>
+			<key>uniqueIdentifier</key>
+			<string>A1B824B3-7748-49EF-91AA-D2201F6C33F8</string>
+		</dict>
+		<key>AC2A069B-D276-4C0B-803D-172BB38555E1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AC2A069B-D276-4C0B-803D-172BB38555E1.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>sample-device project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sample-device</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build sample-device</string>
+			<key>timeStartedRecording</key>
+			<real>576005498.16044199</real>
+			<key>timeStoppedRecording</key>
+			<real>576005498.74847806</real>
+			<key>title</key>
+			<string>Build sample-device</string>
+			<key>uniqueIdentifier</key>
+			<string>AC2A069B-D276-4C0B-803D-172BB38555E1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

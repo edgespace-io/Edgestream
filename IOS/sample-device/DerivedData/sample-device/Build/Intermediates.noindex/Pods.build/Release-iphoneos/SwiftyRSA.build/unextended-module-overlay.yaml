@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/gvigelet/Edgestream/IOS/sample-device/DerivedData/sample-device/Build/Products/Release-iphoneos/SwiftyRSA/SwiftyRSA.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/gvigelet/Edgestream/IOS/sample-device/DerivedData/sample-device/Build/Intermediates.noindex/Pods.build/Release-iphoneos/SwiftyRSA.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "dfb602a62dbf998314ac7eb39c315125"
+build_time: [1554312575, 765177000]
+inputs:
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/Asn1Parser.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/ClearMessage.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/EncryptedMessage.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/Key.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/Message.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/PrivateKey.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/PublicKey.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/Signature.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/SwiftyRSA+ObjC.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/SwiftyRSA.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/Pods/SwiftyRSA/Source/SwiftyRSAError.swift": [9223372036, 854775807]

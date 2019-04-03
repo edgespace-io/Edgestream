@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingClient.m \
+  /Users/gvigelet/Edgestream/IOS/sample-device/DerivedData/sample-device/Build/Intermediates.noindex/Pods.build/Release-iphoneos/FirebaseMessaging.build/module.modulemap \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingClient.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/Public/FIRMessaging.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/DerivedData/sample-device/Build/Intermediates.noindex/Pods.build/Release-iphoneos/GoogleUtilities.build/module.modulemap \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingConnection.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingConstants.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingDataMessageManager.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingDefines.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingLogger.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMMessageCode.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingRegistrar.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingCheckinService.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingRmqManager.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingTopicsCommon.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingUtilities.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/NSError+FIRMessaging.h

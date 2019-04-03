@@ -1,0 +1,44 @@
+dependencies: \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessaging.m \
+  /Users/gvigelet/Edgestream/IOS/sample-device/DerivedData/sample-device/Build/Intermediates.noindex/Pods.build/Release-iphoneos/FirebaseMessaging.build/module.modulemap \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/Public/FIRMessaging.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessaging_Private.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingAnalytics.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/Headers/Public/FirebaseAnalyticsInterop/FIRAnalyticsInterop.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingClient.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingConstants.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingContextManagerService.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingDataMessageManager.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingDefines.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingLogger.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMMessageCode.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingPubSub.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingReceiver.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingRemoteNotificationsProxy.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingRmqManager.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingSyncMessageManager.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingUtilities.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/FIRMessagingVersionUtilities.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/DerivedData/sample-device/Build/Intermediates.noindex/Pods.build/Release-iphoneos/FirebaseCore.build/module.modulemap \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRComponent.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainer.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentType.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentRegistrant.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRCoreConfigurable.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseCore/Firebase/Core/Private/FIRDependency.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/DerivedData/sample-device/Build/Intermediates.noindex/Pods.build/Release-iphoneos/GoogleUtilities.build/module.modulemap \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/GoogleUtilities/GoogleUtilities/Reachability/Private/GULReachabilityChecker.h \
+  /Users/gvigelet/Edgestream/IOS/sample-device/Pods/FirebaseMessaging/Firebase/Messaging/NSError+FIRMessaging.h

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "661866be1d2ad00c99caa43437f59c7f"
+build_time: [1554312654, 606279000]
+inputs:
+  "/Users/gvigelet/Edgestream/IOS/sample-device/sample-device/ViewController.swift": [9223372036, 854775807]
+  "/Users/gvigelet/Edgestream/IOS/sample-device/sample-device/AppDelegate.swift": [9223372036, 854775807]

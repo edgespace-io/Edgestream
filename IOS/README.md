@@ -1,10 +1,10 @@
 # IOS SDK for Edgestream
 
-![Current State: Preview Release](https://img.shields.io/badge/Release-v1-green.svg) 
+![Current State: Preview Release](https://img.shields.io/badge/Release-v2-green.svg) 
 
 # EdgestreamSDK-Release
 
-This is the binary release of the Edgestream SDK library as a framework package that can be added to your own application. refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder. Version 1 Release brings notifications from the EdgestremSDK client.  Currently supported notifications are Cloud to Device Messages.  Implementation of Cloud to Device Messaging has been included in the Sample Device.
+This is the binary release of the Edgestream SDK library as a framework package that can be added to your own application. refer to the release notes in the [EdgestreamSDK-Release](EdgestreamSDK-Release/) folder. Version 2 Release brings notifications from the EdgestremSDK client.  Currently supported notifications are Cloud to Device Messages.  Implementation of Cloud to Device Messaging has been included in the Sample Device.
 
 # Sample-Device
 

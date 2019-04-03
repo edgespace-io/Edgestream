@@ -13,7 +13,7 @@ The Android SDK is for interfacing with the Edgestream platform for sending tele
 
 
 ### [IOS](IOS)
-![Current State: Preview Release](https://img.shields.io/badge/Release-v1-green.svg)
+![Current State: Preview Release](https://img.shields.io/badge/Release-v2-green.svg)
 
 The IOS SDK is for interfacing with the Edgestream platform for sending telemetry and custom data for processing and storage.
 
