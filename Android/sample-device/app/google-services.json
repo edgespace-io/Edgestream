@@ -1,73 +1,104 @@
 {
-    "project_info": {
-      "project_number": "346031762989",
-      "firebase_url": "https://edgestream-platform.firebaseio.com",
-      "project_id": "edgestream-platform",
-      "storage_bucket": "edgestream-platform.appspot.com"
-    },
-    "client": [
-      {
-        "client_info": {
-          "mobilesdk_app_id": "1:346031762989:android:181a23a96e9ad586",
-          "android_client_info": {
-            "package_name": "com.edgespace.sampledevice"
-          }
-        },
-        "oauth_client": [
-          {
-            "client_id": "346031762989-bcadiep7aieq2artprjheb4p21jm9rhe.apps.googleusercontent.com",
-            "client_type": 3
-          }
-        ],
-        "api_key": [
-          {
-            "current_key": "AIzaSyCMt48iTGehSh531WGlVYDR2Lvb6jZ9PRs"
-          }
-        ],
-        "services": {
-          "analytics_service": {
-            "status": 1
-          },
-          "appinvite_service": {
-            "status": 1,
-            "other_platform_oauth_client": []
-          },
-          "ads_service": {
-            "status": 2
-          }
+  "project_info": {
+    "project_number": "282217005466",
+    "firebase_url": "https://notify-71f0d.firebaseio.com",
+    "project_id": "notify-71f0d",
+    "storage_bucket": "notify-71f0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282217005466:android:51f2a3379714e1a3",
+        "android_client_info": {
+          "package_name": "com.duvitech.myapplication"
         }
       },
-      {
-        "client_info": {
-          "mobilesdk_app_id": "1:346031762989:android:889ecba50ac5116c",
-          "android_client_info": {
-            "package_name": "io.edgestream.edgesdk.sample"
-          }
+      "oauth_client": [
+        {
+          "client_id": "282217005466-u9gv445ih3v5n98nocgbcuhlf5n6rn8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgTP4QJtYYihtRkDcRmK2SEFJq9ggL_WQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
         },
-        "oauth_client": [
-          {
-            "client_id": "346031762989-bcadiep7aieq2artprjheb4p21jm9rhe.apps.googleusercontent.com",
-            "client_type": 3
-          }
-        ],
-        "api_key": [
-          {
-            "current_key": "AIzaSyCMt48iTGehSh531WGlVYDR2Lvb6jZ9PRs"
-          }
-        ],
-        "services": {
-          "analytics_service": {
-            "status": 1
-          },
-          "appinvite_service": {
-            "status": 1,
-            "other_platform_oauth_client": []
-          },
-          "ads_service": {
-            "status": 2
-          }
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
         }
       }
-    ],
-    "configuration_version": "1"
-  }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282217005466:android:85129797b7c2aba7",
+        "android_client_info": {
+          "package_name": "com.duvitech.notifications.getstartednh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282217005466-u9gv445ih3v5n98nocgbcuhlf5n6rn8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgTP4QJtYYihtRkDcRmK2SEFJq9ggL_WQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282217005466:android:181a23a96e9ad586",
+        "android_client_info": {
+          "package_name": "com.edgespace.sampledevice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282217005466-u9gv445ih3v5n98nocgbcuhlf5n6rn8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgTP4QJtYYihtRkDcRmK2SEFJq9ggL_WQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

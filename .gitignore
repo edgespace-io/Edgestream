@@ -1,1 +1,45 @@
-/build
+IOS/sample-device/build/
+IOS/sample-device/DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+IOS/sample-device/xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+IOS/sample-device/fastlane/report.xml
+IOS/sample-device/fastlane/Preview.html
+IOS/sample-device/fastlane/screenshots/**/*.png
+IOS/sample-device/fastlane/test_output
+
+IOS/sample-device/iOSInjectionProject/
+
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.iml
+Android/sample-device/.idea/workspace.xml
+Android/sample-device/.idea/tasks.xml
+Android/sample-device/.idea/gradle.xml
+Android/sample-device/.idea/assetWizardSettings.xml
+Android/sample-device/.idea/dictionaries
+Android/sample-device/.idea/libraries
+Android/sample-device/.idea/caches
