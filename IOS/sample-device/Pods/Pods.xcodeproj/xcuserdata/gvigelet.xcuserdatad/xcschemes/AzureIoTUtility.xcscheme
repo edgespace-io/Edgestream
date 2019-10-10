@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F5ABF1F74330573DFED0A3544736335"
+               BlueprintIdentifier = "0F623B6B20ADF25DE20060F87BFF48A3"
+               BuildableName = "AzureIoTUtility.framework"
                BlueprintName = "AzureIoTUtility"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "AzureIoTUtility.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

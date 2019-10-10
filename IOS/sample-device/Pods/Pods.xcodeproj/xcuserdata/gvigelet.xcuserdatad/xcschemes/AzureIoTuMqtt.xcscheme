@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA930FD122639D5DE2DB9B4DF53F5CD6"
+               BlueprintIdentifier = "0BD06B5E55D97C27F3898036A0B737B0"
+               BuildableName = "AzureIoTuMqtt.framework"
                BlueprintName = "AzureIoTuMqtt"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "AzureIoTuMqtt.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

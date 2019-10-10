@@ -1,0 +1,4 @@
+framework module edgesdk {
+  header "edgesdk-Swift.h"
+  requires objc
+}

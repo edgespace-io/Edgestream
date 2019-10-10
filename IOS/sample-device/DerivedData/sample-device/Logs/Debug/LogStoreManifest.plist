@@ -38,38 +38,6 @@
 			<key>uniqueIdentifier</key>
 			<string>A0277467-8948-4E31-97C8-4E776EE13A2C</string>
 		</dict>
-		<key>E777F48F-FDD5-44B6-9C32-5D500F79FA8C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>E777F48F-FDD5-44B6-9C32-5D500F79FA8C.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>sample-device project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>sample-device</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug sample-device</string>
-			<key>timeStartedRecording</key>
-			<real>576001804.55664897</real>
-			<key>timeStoppedRecording</key>
-			<real>576002003.914626</real>
-			<key>title</key>
-			<string>Debug sample-device</string>
-			<key>uniqueIdentifier</key>
-			<string>E777F48F-FDD5-44B6-9C32-5D500F79FA8C</string>
-		</dict>
 	</dict>
 </dict>
 </plist>

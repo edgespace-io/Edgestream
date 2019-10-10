@@ -6,27 +6,43 @@
 	<dict>
 		<key>Headers/edgesdk-Swift.h</key>
 		<data>
-		MZeYxeYh8dochQqWeguG9FiUnzg=
+		Df5tMGK1kdRcTTsS302oPzjjYzA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7xdT1kmv6XPJ9RzlFXAst1EjM4s=
+		RqZ0uiQpjUdAVObIQGyHywvXwf4=
+		</data>
+		<key>Modules/edgesdk.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
+		<data>
+		oeU+qZ0hAtc/VS2HLFqz7tfe2+I=
+		</data>
+		<key>Modules/edgesdk.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
+		<data>
+		ZFdWKrxzqR47RgWzzoVXGMo5wWc=
 		</data>
 		<key>Modules/edgesdk.swiftmodule/i386.swiftdoc</key>
 		<data>
-		0Em/staohJ8bzKdkPPWrtkmVDsU=
+		oeU+qZ0hAtc/VS2HLFqz7tfe2+I=
 		</data>
 		<key>Modules/edgesdk.swiftmodule/i386.swiftmodule</key>
 		<data>
-		A9xndrg3zpOFatrl0m0XUAK9/jE=
+		ZFdWKrxzqR47RgWzzoVXGMo5wWc=
+		</data>
+		<key>Modules/edgesdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		c8UEBc25mDaZgF1LOK7CHrj8pzM=
+		</data>
+		<key>Modules/edgesdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		JKHAzMTZ0CKXXkqCs4LkoGcrIZ0=
 		</data>
 		<key>Modules/edgesdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		iuuJqdFbNBRaduUkaj3fAdAys1M=
+		c8UEBc25mDaZgF1LOK7CHrj8pzM=
 		</data>
 		<key>Modules/edgesdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		4JFt7u1xKDHOIluKhKTtf+0QTCY=
+		JKHAzMTZ0CKXXkqCs4LkoGcrIZ0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,55 +55,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MZeYxeYh8dochQqWeguG9FiUnzg=
+			Df5tMGK1kdRcTTsS302oPzjjYzA=
 			</data>
 			<key>hash2</key>
 			<data>
-			y073fZGVrv4vtr2pQs6YQXRp2LS4ZuoYeez2/9EPt4s=
+			YAq3LMA4PDET3TydCXfqS12t+n0aQ+k2NDMybP2/sR0=
+			</data>
+		</dict>
+		<key>Modules/edgesdk.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oeU+qZ0hAtc/VS2HLFqz7tfe2+I=
+			</data>
+			<key>hash2</key>
+			<data>
+			ggir6KrDv5bdnj3/yLFofYS82QDZoJ9mcg420d8qe3Q=
+			</data>
+		</dict>
+		<key>Modules/edgesdk.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZFdWKrxzqR47RgWzzoVXGMo5wWc=
+			</data>
+			<key>hash2</key>
+			<data>
+			S5asAVCZYaLlHbRnzJV6Pt8z+YIhmX4l+iy8nqKWZz0=
 			</data>
 		</dict>
 		<key>Modules/edgesdk.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Em/staohJ8bzKdkPPWrtkmVDsU=
+			oeU+qZ0hAtc/VS2HLFqz7tfe2+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			LY3gZ/bTnFrWaJfE1VyLNUfxaH9vxcovGI2uLlMMk48=
+			ggir6KrDv5bdnj3/yLFofYS82QDZoJ9mcg420d8qe3Q=
 			</data>
 		</dict>
 		<key>Modules/edgesdk.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A9xndrg3zpOFatrl0m0XUAK9/jE=
+			ZFdWKrxzqR47RgWzzoVXGMo5wWc=
 			</data>
 			<key>hash2</key>
 			<data>
-			NwNqbpNJD6QZS4oTozZomzEyPafwz6O2X2H2QqNzbgk=
+			S5asAVCZYaLlHbRnzJV6Pt8z+YIhmX4l+iy8nqKWZz0=
+			</data>
+		</dict>
+		<key>Modules/edgesdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c8UEBc25mDaZgF1LOK7CHrj8pzM=
+			</data>
+			<key>hash2</key>
+			<data>
+			wjYyvnG/uCBg193W9KtkeHSSilYg5l9TVUwRAMRJals=
+			</data>
+		</dict>
+		<key>Modules/edgesdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JKHAzMTZ0CKXXkqCs4LkoGcrIZ0=
+			</data>
+			<key>hash2</key>
+			<data>
+			4w6+7wBdokJ9BKIOH25y/c27ry/BcPTifvnf37epnCM=
 			</data>
 		</dict>
 		<key>Modules/edgesdk.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iuuJqdFbNBRaduUkaj3fAdAys1M=
+			c8UEBc25mDaZgF1LOK7CHrj8pzM=
 			</data>
 			<key>hash2</key>
 			<data>
-			jJwswJ7YBhtsxeE9Vjp1/Rfne9tPj7I61n25tyMK46I=
+			wjYyvnG/uCBg193W9KtkeHSSilYg5l9TVUwRAMRJals=
 			</data>
 		</dict>
 		<key>Modules/edgesdk.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4JFt7u1xKDHOIluKhKTtf+0QTCY=
+			JKHAzMTZ0CKXXkqCs4LkoGcrIZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vgd5eOjfbCt7Bi3dgttZjCtko9BNZsRXy10ldhZ8E+o=
+			4w6+7wBdokJ9BKIOH25y/c27ry/BcPTifvnf37epnCM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
